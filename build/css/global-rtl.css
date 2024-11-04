@@ -1,0 +1,124 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/global.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+/**
+ * global.css and global.js are loaded for both frontend and editor.
+ */
+/**
+ * Helper classes
+ */
+body {
+  font-variation-settings: "slnt" 0; /* Bug Fix: Variable font is displayed italic */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: never;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-clip {
+  overflow: initial;
+  overflow: clip;
+}
+
+/* Flex */
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.shrink-1 {
+  flex-shrink: 1;
+}
+
+/* Positions */
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+/* z-index */
+.z-1000 {
+  z-index: 1000;
+}
+
+.z-9999 {
+  z-index: 9999;
+}
+
+/* Core Blocks */
+/* Details
+--------------------------------------------- */
+.is-style-details-plus {
+  padding-bottom: 24px;
+}
+.is-style-details-plus summary {
+  padding-top: 24px;
+  border-top: 1px solid black;
+  text-transform: uppercase;
+  font-size: var(--wp--preset--font-size--large);
+  line-height: 1;
+  list-style-type: "+ ";
+}
+.is-style-details-plus div {
+  padding-right: 20px;
+  margin-block-start: 12px;
+}
+
+/* Group
+--------------------------------------------- */
+.is-style-group-spotlight {
+  background-image: radial-gradient(at 320px 100px, rgba(24, 93, 106, 0) 0, #1f3a47 70%);
+}
+
+/* Custom bittnerkrull25 Stlying */
+/* Image
+--------------------------------------------- */
+.is-style-image--bittnekrull-screenshot img {
+  outline: 1px solid var(--wp--preset--color--base-4);
+  border: 6px solid var(--wp--preset--color--base);
+  box-shadow: var(--wp--preset--shadow--x-large);
+  border-radius: 8px;
+}
+.is-style-image--bittnekrull-screenshot .wp-element-caption {
+  font-size: var(--wp--preset--font-size--small);
+}
+
+/**
+ * Helper class: Text Shadow
+ */
+.bittnerkrull-text-shadow p {
+  text-shadow: 0px 3px 16px #004f71, 0px 3px 3px rgba(0, 0, 0, 0.8);
+}
+.bittnerkrull-text-shadow h1,
+.bittnerkrull-text-shadow h2,
+.bittnerkrull-text-shadow h3,
+.bittnerkrull-text-shadow h4,
+.bittnerkrull-text-shadow h5,
+.bittnerkrull-text-shadow h6 {
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.9);
+}
+
+/* Vorteile */
+.is-style-cover--bittnerkrull-vorteile {
+  text-shadow: 0px 3px 16px #004f71, 0px 3px 3px rgba(0, 0, 0, 0.8);
+}
+.is-style-cover--bittnerkrull-vorteile .wp-block-cover__image-background {
+  transition: transform 200ms ease-in-out;
+}
+.is-style-cover--bittnerkrull-vorteile:hover .wp-block-cover__image-background {
+  transform: scale(1.02);
+}

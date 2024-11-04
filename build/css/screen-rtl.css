@@ -1,0 +1,59 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/screen.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+/**
+ * screen.css is only loaded on the frontend.
+ */
+/* Custom bittnerkrull25 Stlying */
+.is-style-group--bittnerkrull-logo-wall figure {
+  background-color: white;
+  filter: grayscale(100%) opacity(0.6);
+  transition: all 200ms ease-in-out;
+}
+.is-style-group--bittnerkrull-logo-wall figure:hover {
+  filter: none;
+  transform: scale(1.2);
+  z-index: 999;
+}
+
+/* Cover
+--------------------------------------------- */
+/* Produkte - Text Reveal */
+.is-style-cover--bittnerkrull-produkte {
+  text-shadow: 0px 3px 16px #004f71, 0px 3px 3px rgba(0, 0, 0, 0.8);
+  /* Animation */
+  /* Styling */
+}
+.is-style-cover--bittnerkrull-produkte * {
+  transition: all 200ms ease-in-out;
+  interpolate-size: allow-keywords;
+}
+.is-style-cover--bittnerkrull-produkte .wp-block-cover__inner-container div {
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: 50% 100%;
+  height: 0px;
+}
+.is-style-cover--bittnerkrull-produkte:hover .wp-block-cover__inner-container div {
+  opacity: 1;
+  transform: scaleY(1);
+  height: auto;
+}
+.is-style-cover--bittnerkrull-produkte .has-background-dim {
+  opacity: 0;
+  display: none;
+}
+.is-style-cover--bittnerkrull-produkte:hover .has-background-dim {
+  display: inherit;
+  opacity: 1;
+}
+.is-style-cover--bittnerkrull-produkte .wp-block-buttons {
+  text-shadow: none;
+}
+.is-style-cover--bittnerkrull-produkte h4 a {
+  text-decoration: none;
+}
+.is-style-cover--bittnerkrull-produkte:hover h4 a:after {
+  content: " →";
+}

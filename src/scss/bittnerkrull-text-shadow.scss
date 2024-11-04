@@ -1,0 +1,19 @@
+/**
+ * Helper class: Text Shadow
+ */
+
+.bittnerkrull-text-shadow {
+	p {
+		text-shadow:
+			0px 3px 16px #004f71,
+			0px 3px 3px rgba(0, 0, 0, 0.8);
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.9);
+	}
+}

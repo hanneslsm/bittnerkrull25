@@ -1,0 +1,18 @@
+/**
+ * global.css and global.js are loaded for both frontend and editor.
+ */
+
+@use "./scss/helpers.scss";
+
+/* Core Blocks */
+@use "./scss/core-details";
+@use "./scss/core-group";
+
+
+/* Custom bittnerkrull25 Stlying */
+@use "./scss/bittnerkrull-screenshot.scss";
+@use "./scss/bittnerkrull-text-shadow.scss";
+@use "./scss/bittnerkrull-vorteile.scss";
+
+
+

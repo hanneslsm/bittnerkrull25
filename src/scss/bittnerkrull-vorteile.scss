@@ -1,0 +1,13 @@
+/* Vorteile */
+.is-style-cover--bittnerkrull-vorteile {
+	text-shadow:
+		0px 3px 16px #004f71,
+		0px 3px 3px rgba(0, 0, 0, 0.8);
+	.wp-block-cover__image-background {
+		transition: transform 200ms ease-in-out;
+	}
+
+	&:hover .wp-block-cover__image-background {
+		transform: scale(1.02);
+	}
+}

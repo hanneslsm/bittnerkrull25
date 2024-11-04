@@ -1,0 +1,23 @@
+{
+	"name": "bittnerkrull25",
+	"version": "0.1.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "wp-scripts start --config webpack.config.js",
+		"build": "wp-scripts build --config webpack.config.js",
+		"lint:style": "wp-scripts lint-style",
+		"lint:resources": "wp-scripts lint-style 'resources/*' --fix",
+		"format": "wp-scripts format",
+		"format:resources": "wp-scripts format ./resources"
+	},
+	"author": "hanneslsm",
+	"license": "GPL-2.0",
+	"description": "",
+	"devDependencies": {
+		"@wordpress/scripts": "^30.1.0",
+		"glob": "^11.0.0"
+	},
+	"dependencies": {
+		"gsap": "^3.12.5"
+	}
+}

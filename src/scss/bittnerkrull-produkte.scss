@@ -1,0 +1,44 @@
+/* Cover
+--------------------------------------------- */
+
+/* Produkte - Text Reveal */
+.is-style-cover--bittnerkrull-produkte {
+	text-shadow:
+		0px 3px 16px #004f71,
+		0px 3px 3px rgba(0, 0, 0, 0.8);
+	* {
+		transition: all 200ms ease-in-out;
+		interpolate-size: allow-keywords;
+	}
+	.wp-block-cover__inner-container div {
+		opacity: 0;
+		transform: scaleY(0);
+		transform-origin: 50% 100%;
+		height: 0px;
+	}
+	&:hover .wp-block-cover__inner-container div {
+		opacity: 1;
+		transform: scaleY(1);
+		height: auto;
+	}
+	/* Animation */
+	.has-background-dim {
+		opacity: 0;
+		display: none;
+	}
+	&:hover .has-background-dim {
+		display: inherit;
+		opacity: 1;
+	}
+
+	/* Styling */
+	.wp-block-buttons {
+		text-shadow: none;
+	}
+	h4 a {
+		text-decoration: none;
+	}
+	&:hover h4 a:after {
+		content: " →";
+	}
+}
