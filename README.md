@@ -2,20 +2,15 @@
 BittnerKrull25 is a custom WordPress block theme developed by Studio Leismann for Bittner+Krull Softwaresysteme GmbH, tailored for seamless integration with WordPress's block editor.
 
 ## Features
-- Full Site Editing (FSE): Enables comprehensive site customization using WordPress's block editor.
-- Custom Templates and Patterns: Provides unique templates and block patterns specific to client needs.
-- Theme Settings: Configurable options available via the theme.json file and a build process.
-- Custom Blocks Styles: Includes custom-designed blocks and styles for a cohesive look.
-- Enhanced Asset Management: Efficiently manages JavaScript and CSS with Webpack.
-- GSAP Animations: Smooth animations using GSAP, enhancing interactivity and engagement.
+- **Full Site Editing (FSE):** Enables comprehensive site customization using WordPress's block editor.
+- **Custom Templates and Patterns:** Provides unique templates and block patterns specific to client needs.
+- **Theme Settings:** Configurable options available via the theme.json file and a build process.
+- **Custom Blocks Styles:** Includes custom-designed blocks and styles for a cohesive look.
+- **Enhanced Asset Management:** Efficiently manages JavaScript and CSS with Webpack.
+- **GSAP Animations:** Smooth animations using GSAP, enhancing interactivity and engagement.
 
 ## Recommended Plugins
-- [Create Block Theme Plugin:](https://wordpress.org/plugins/create-block-theme/) Recommended for easy exporting and customization of block themes.
-
-## Installation
-- Download the theme from the GitHub repository.
-- Upload the bittnerkrull25 folder to the /wp-content/themes/ directory on your WordPress site.
-- Activate the theme via Appearance > Themes in the WordPress admin dashboard.
+- [Create Block Theme Plugin](https://wordpress.org/plugins/create-block-theme/): Recommended for easy exporting and customization of block themes.
 
 ## Development
 This theme utilizes modern development tools and workflows to manage and bundle assets.
@@ -54,15 +49,15 @@ bittnerkrull25/
 └── webpack.config.js          # Webpack configuration
 ```
 
-## SCSS Files
+### SCSS Files
 - **global.scss:** Contains global styles applied across the entire theme.
 - **script.scss:** Defines styles associated with JavaScript functionalities.
 - **editor.scss:** Provides styles specific to the WordPress block editor, ensuring a consistent editing experience.
 
 
 ## Custom Block Styles
+This process allows the custom style to be selectable in the block editor.
 In this theme, custom block styles are defined and registered as follows:
-
 
 1. Register the Block Style in `/src/block-style.js`
 ```
@@ -71,8 +66,6 @@ wp.blocks.registerBlockStyle('core/button', {
 	label: 'BK Elevated',
 });
 ```
-This process allows the custom style to be selectable in the block editor.
-
 2. Define the Style in SCSS:
 Within the src/scss/ directory, create SCSS files corresponding to specific blocks. For example, to add a custom style to the Button block, define the styles in src/scss/core-button.scss.
 ```
@@ -80,15 +73,14 @@ Within the src/scss/ directory, create SCSS files corresponding to specific bloc
   border-bottom: 4px solid black;
 }
 ```
-
 3. Import the SCSS File:
 In `src/scss/global.scss`, import the new SCSS file:
-`@use "./scss/helpers.scss";`
+`@use "./scss/core-button.scss";`
 
 ## License
 This theme is licensed under the GNU General Public License v2.0, with proprietary elements exclusive to Studio Leismann. See LICENSE.md
 
 ## Credits
-*   **Design and Development:** [Studio Leismann](https://www.studioleismann.de/)
+*   **Design and Development:** [Studio Leismann](https://www.studioleismann.com/)
 *   **Client:** [Bittner+Krull Softwaresysteme GmbH](https://www.bittner-krull.de/)
 For more information, visit the GitHub repository.
