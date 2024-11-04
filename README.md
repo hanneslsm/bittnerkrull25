@@ -83,4 +83,5 @@ This theme is licensed under the GNU General Public License v2.0, with proprieta
 ## Credits
 *   **Design and Development:** [Studio Leismann](https://www.studioleismann.com/)
 *   **Client:** [Bittner+Krull Softwaresysteme GmbH](https://www.bittner-krull.de/)
+
 For more information, visit the GitHub repository.
