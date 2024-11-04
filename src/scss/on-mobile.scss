@@ -1,0 +1,15 @@
+/**
+ * On Mobile
+ * Breakpoints are inspired by https://github.com/WordPress/gutenberg/blob/trunk/packages/components/src/utils/breakpoint-values.js
+ */
+
+@media (max-width: 600px) {
+	.is-style-on-mobile-left {
+		justify-content: flex-start !important;
+		text-align: left;
+		> * {
+			justify-content: flex-start !important;
+			text-align: left;
+		}
+	}
+}

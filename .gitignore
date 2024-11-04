@@ -4,9 +4,11 @@
 .Trashes
 Thumbs.db
 
-# Build Systems
+# Build Systems & Files
 node_modules/
-/public
+/build
+/build/css
+/build/js
 
 # WordPres Files
 wp-content/*

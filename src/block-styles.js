@@ -32,6 +32,7 @@ wp.blocks.registerBlockStyle('core/group', {
 	label: 'Hover: Spotlight',
 });
 
+
 wp.blocks.registerBlockStyle('core/group', {
 	name: 'group--bittnerkrull-logo-wall',
 	label: 'BK Logo Wall',
@@ -45,4 +46,23 @@ wp.blocks.registerBlockStyle('core/group', {
 wp.blocks.registerBlockStyle('core/image', {
 	name: 'image--bittnerkrull-screenshot',
 	label: 'BK Screenshot',
+});
+
+
+/**
+* Multiple Blocks
+*/
+
+['core/group', 'core/paragraph'].forEach(block => {
+	wp.blocks.registerBlockStyle(block, {
+		name: 'on-mobile-left',
+		label: '📱 Left',
+	});
+});
+
+['core/group', 'core/paragraph'].forEach(block => {
+	wp.blocks.registerBlockStyle(block, {
+		name: 'on-tablet-left',
+		label: '📱📺 Left',
+	});
 });
