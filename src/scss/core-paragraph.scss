@@ -1,0 +1,14 @@
+/* Paragraph
+--------------------------------------------- */
+
+.is-style-paragraph-kicker{
+	color: var(--wp--preset--color--contrast-6);
+	text-transform: uppercase;
+	font-size: clamp(0.75rem, 0.313vw + 0.625rem, 0.875rem);
+	font-weight: 600;
+	letter-spacing: clamp(0.063rem, 0.156vw + 0rem, 0.125rem);
+}
+
+.is-style-paragraph-intro{
+	font-size: clamp(1.125rem, 0.313vw + 1rem, 1.25rem)
+}

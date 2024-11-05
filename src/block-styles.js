@@ -38,6 +38,18 @@ wp.blocks.registerBlockStyle('core/group', {
 	label: 'BK Logo Wall',
 });
 
+/**
+ * Core Paragraph
+ */
+wp.blocks.registerBlockStyle('core/paragraph', {
+	name: 'paragraph-kicker',
+	label: 'Kicker Text',
+});
+
+wp.blocks.registerBlockStyle('core/paragraph', {
+	name: 'paragraph-intro',
+	label: 'Intro Text',
+});
 
 
 /**
