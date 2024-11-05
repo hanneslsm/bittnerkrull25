@@ -85,3 +85,13 @@ This theme is licensed under the GNU General Public License v2.0, with proprieta
 *   **Client:** [Bittner+Krull Softwaresysteme GmbH](https://www.bittner-krull.de/)
 
 For more information, visit the GitHub repository.
+
+
+### Fonts
+
+```
+Open Sans
+Copyright 2020 The Open Sans Project Authors (https://github.com/googlefonts/opensans)
+Source: http://www.google.com/get/noto/
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+```
