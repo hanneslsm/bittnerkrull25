@@ -17,9 +17,9 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"33.33%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:paragraph {"align":"right"} -->
-<p class="has-text-align-right"><?php /* Translators: 1. is a 'br' HTML element, 2. is a 'br' HTML element, 3. is a 'br' HTML element */ 
-echo sprintf( esc_html__( 'Datenschutz%1$sAGB%2$sImpressum%3$sCookies', 'bittnerkrull25' ), '<br>', '<br>', '<br>' ); ?></p>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:paragraph {"align":"right","className":"mobile-align-left is-style-on-tablet-left"} -->
+<p class="has-text-align-right mobile-align-left is-style-on-tablet-left"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element, 3. is a 'br' HTML element, 4. is the start of a 'a' HTML element, 5. is the end of a 'a' HTML element, 6. is a 'br' HTML element, 7. is the start of a 'a' HTML element, 8. is the end of a 'a' HTML element, 9. is a 'br' HTML element, 10. is the start of a 'a' HTML element, 11. is the end of a 'a' HTML element */ 
+echo sprintf( esc_html__( '%1$sDatenschutz%2$s%3$s%4$sAGB%5$s%6$s%7$sImpressum%8$s%9$s%10$sCookies%11$s', 'bittnerkrull25' ), '<a href="' . esc_url( 'http://bittnerkrull.local/privacy-policy/' ) . '" data-type="page" data-id="3">', '</a>', '<br>', '<a href="' . esc_url( '#' ) . '">', '</a>', '<br>', '<a href="' . esc_url( '#' ) . '">', '</a>', '<br>', '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -36,17 +36,19 @@ echo sprintf( esc_html__( 'Datenschutz%1$sAGB%2$sImpressum%3$sCookies', 'bittner
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:social-links {"iconColor":"base-3","iconColorValue":"#F5F5F6","size":"has-normal-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|10"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-column"><!-- wp:group {"className":"is-style-group\u002d\u002don-mobile-left is-style-on-tablet-left","layout":{"type":"default"}} -->
+<div class="wp-block-group is-style-group--on-mobile-left is-style-on-tablet-left"><!-- wp:social-links {"iconColor":"base-3","iconColorValue":"#F5F5F6","size":"has-normal-icon-size","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|10"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
 <ul class="wp-block-social-links has-normal-icon-size has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"https://www.linkedin.com/company/bittner-krull-softwaresysteme-gmbh/","service":"linkedin"} /-->
 
 <!-- wp:social-link {"url":"info@bittner-krull.de","service":"mail"} /--></ul>
 <!-- /wp:social-links --></div>
+<!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"},"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
-<div class="wp-block-group" style="padding-right:0;padding-left:0"><!-- wp:paragraph -->
-<p><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
+<div class="wp-block-column"><!-- wp:group {"className":"is-style-group\u002d\u002don-mobile-left is-style-on-tablet-left","style":{"spacing":{"padding":{"right":"0","left":"0"},"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
+<div class="wp-block-group is-style-group--on-mobile-left is-style-on-tablet-left" style="padding-right:0;padding-left:0"><!-- wp:paragraph {"className":"mobile-align-left"} -->
+<p class="mobile-align-left"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
 echo sprintf( esc_html__( '%1$sBittner+Krull Schweiz%2$s', 'bittnerkrull25' ), '<a href="' . esc_url( 'http://bittner-krull.ch' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph -->
 
