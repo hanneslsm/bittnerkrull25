@@ -1,7 +1,17 @@
 .on-stuck-has-padding {
-	transition: padding 400ms linear;
+	transition: all 400ms linear;
 
 	&.is-stuck {
 		padding-top: var(--wp--preset--spacing--30);
 	}
+}
+
+
+.on-stuck-has-shadow {
+	transition: all 200ms linear;
+
+	&.has-shadow {
+		box-shadow: var(--wp--preset--shadow--xx-large);
+	}
+
 }
