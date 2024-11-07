@@ -5,10 +5,12 @@
 @use "./scss/helpers.scss";
 @use "./scss/on-mobile.scss";
 @use "./scss/on-tablet.scss";
+@use "./scss/on-stuck.scss";
 
 /* Core Blocks */
 @use "./scss/core-details";
 @use "./scss/core-group";
+@use "./scss/core-list";
 @use "./scss/core-paragraph";
 
 
