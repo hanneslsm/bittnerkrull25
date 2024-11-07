@@ -1,0 +1,7 @@
+.on-stuck-has-padding {
+	transition: padding 400ms linear;
+
+	&.is-stuck {
+		padding-top: var(--wp--preset--spacing--30);
+	}
+}
