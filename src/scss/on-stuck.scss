@@ -6,12 +6,13 @@
 	}
 }
 
-
 .on-stuck-has-shadow {
 	transition: all 200ms linear;
-
-	&.has-shadow {
-		box-shadow: var(--wp--preset--shadow--xx-large);
+	> div {
+		transition: all 200ms linear;
 	}
 
+	&.has-shadow > div {
+		box-shadow: var(--wp--preset--shadow--xx-large);
+	}
 }
