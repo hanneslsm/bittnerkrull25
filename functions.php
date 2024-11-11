@@ -2,7 +2,7 @@
 
 /**
  * bittnerkrull25 functions and definitions
- * 
+ *
  * @package bittnerkrull25
  * @since 0.1
  */
@@ -12,7 +12,7 @@
 require get_template_directory() . '/inc/setup.php';
 
 // Patterns Setup
-require get_template_directory() . '/inc/patterns.php';
+require get_template_directory() . '/inc/block-patterns.php';
 
 // Enqueue files
 require get_template_directory() . '/inc/enqueuing.php';
@@ -25,3 +25,8 @@ require get_template_directory() . '/inc/dashboard-widget.php';
  */
 // Remove default CSS variables
 require get_template_directory() . '/inc/dev_remove-defaults.php';
+
+
+
+
+
