@@ -33,39 +33,62 @@ window.addEventListener('scroll', function() {
 handlePaddingOnStuck();
 
 /**
-* .on-stuck-has-shadow
+* .on-stuck-has-layers
 */
+const stickyElements = document.querySelectorAll('.on-stuck-has-layers');
 
-const stickyElementsWithShadow = document.querySelectorAll('.on-stuck-has-shadow');
+const handleStickyClasses = () => {
+  stickyElements.forEach((element, index) => {
+    const rect = element.getBoundingClientRect();
+    const topOffset = parseInt(getComputedStyle(element).top) || 0;
 
-const handleShadowOnOverlap = () => {
-  stickyElementsWithShadow.forEach((element, index) => {
+    let isStuck = rect.top <= topOffset;
+    let isTop = false;
+
+    // Update '.is-stuck' class on the current element
+    if (isStuck) {
+      element.classList.add('is-stuck');
+    } else {
+      element.classList.remove('is-stuck');
+    }
+
     if (index > 0) {
-      const prevElement = stickyElementsWithShadow[index - 1];
-      const rect = element.getBoundingClientRect();
+      const prevElement = stickyElements[index - 1];
       const prevRect = prevElement.getBoundingClientRect();
 
-      // Add shadow if overlapped, remove when fully covered
-      if (prevRect.bottom >= rect.top && prevRect.bottom < rect.bottom) {
-        element.classList.add('has-shadow');
+      // Check for overlap with the previous element
+      if (rect.top <= prevRect.bottom && rect.bottom > prevRect.bottom) {
+        element.classList.add('is-top');
+        isTop = true;
       } else {
-        element.classList.remove('has-shadow');
+        element.classList.remove('is-top');
       }
+
+      // Update '.is-behind' class on the previous element
+      if (isStuck && !isTop) {
+        prevElement.classList.add('is-behind');
+      } else {
+        prevElement.classList.remove('is-behind');
+      }
+    } else {
+      // Ensure '.is-top' is not applied to the first element
+      element.classList.remove('is-top');
     }
   });
 };
 
-let tickingShadow = false;
+let ticking = false;
 
 window.addEventListener('scroll', function() {
-  if (!tickingShadow) {
+  if (!ticking) {
     window.requestAnimationFrame(function() {
-      handleShadowOnOverlap();
-      tickingShadow = false;
+      handleStickyClasses();
+      ticking = false;
     });
-    tickingShadow = true;
+    ticking = true;
   }
 });
 
-// Initial check for all sticky elements with shadow
-handleShadowOnOverlap();
+// Initial check on page load
+handleStickyClasses();
+
