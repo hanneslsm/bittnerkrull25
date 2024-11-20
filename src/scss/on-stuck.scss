@@ -3,16 +3,25 @@
 
 	&.is-stuck {
 		padding-top: var(--wp--preset--spacing--30);
+
 	}
 }
 
-.on-stuck-has-shadow {
+.on-stuck-has-layers {
 	transition: all 200ms linear;
 	> div {
 		transition: all 200ms linear;
 	}
+	&.is-stuck {
+		padding-top: var(--wp--preset--spacing--30);
 
-	&.has-shadow > div {
+	}
+	&.is-top > div {
 		box-shadow: var(--wp--preset--shadow--xx-large);
+
+	}
+	&.is-behind  {
+		//padding-top: var(--wp--preset--spacing--30);
+		opacity: .2;
 	}
 }
