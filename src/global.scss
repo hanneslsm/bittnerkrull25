@@ -2,22 +2,25 @@
  * global.css and global.js are loaded for both frontend and editor.
  */
 
-@use "./scss/helpers.scss";
-@use "./scss/on-mobile.scss";
-@use "./scss/on-tablet.scss";
-@use "./scss/on-stuck.scss";
 
-/* Core Blocks */
-@use "./scss/core-details";
-@use "./scss/core-group";
-@use "./scss/core-list";
-@use "./scss/core-paragraph";
+@use "./scss/utilities/variables.scss";
+@use "./scss/utilities/helpers.scss";
+@use "./scss/utilities/on-mobile.scss";
+@use "./scss/utilities/on-tablet.scss";
+@use "./scss/utilities/on-stuck.scss";
+
+/* Blocks */
+@use "./scss/blocks/core-details";
+@use "./scss/blocks/core-group";
+@use "./scss/blocks/core-list";
+@use "./scss/blocks/core-paragraph";
 
 
 /* Custom bittnerkrull25 Stlying */
-@use "./scss/bittnerkrull-screenshot.scss";
-@use "./scss/bittnerkrull-text-shadow.scss";
-@use "./scss/bittnerkrull-vorteile.scss";
+@use "./scss/custom/bittnerkrull-screenshot.scss";
+@use "./scss/custom/bittnerkrull-text-shadow.scss";
+@use "./scss/custom/bittnerkrull-vorteile.scss";
+@use "./scss/custom/bittnerkrull-logowall.scss";
 
 
 

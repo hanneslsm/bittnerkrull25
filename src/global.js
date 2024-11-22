@@ -6,5 +6,5 @@
 import "./block-styles.js";
 import "./block-variations.js";
 
-import "./js/core-group.js";
-import "./js/on-stuck.js";
+import "./js/blocks/core-group.js";
+import "./js/utilities/on-stuck.js";
