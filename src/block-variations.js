@@ -1,6 +1,5 @@
 /** Register Block Variations
  * --------------------------------------------- */
-import { registerBlockStyle, unregisterBlockStyle } from '@wordpress/blocks';
 
 /**
  * Core Sapcer
