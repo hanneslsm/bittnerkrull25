@@ -3,7 +3,6 @@
 
 	&.is-stuck {
 		padding-top: var(--wp--preset--spacing--30);
-
 	}
 }
 
@@ -14,14 +13,12 @@
 	}
 	&.is-stuck {
 		padding-top: var(--wp--preset--spacing--30);
-
 	}
 	&.is-top > div {
 		box-shadow: var(--wp--preset--shadow--xx-large);
-
 	}
-	&.is-behind  {
+	&.is-behind {
 		//padding-top: var(--wp--preset--spacing--30);
-		opacity: .2;
+		opacity: 0.2;
 	}
 }

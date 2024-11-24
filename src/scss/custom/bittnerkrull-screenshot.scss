@@ -2,13 +2,13 @@
 --------------------------------------------- */
 
 .is-style-image--bittnerkrull-screenshot {
-  img {
-    outline: 1px solid var(--wp--preset--color--base-4);
-    border: 6px solid var(--wp--preset--color--base);
-    box-shadow: var(--wp--preset--shadow--x-large);
-    border-radius: 8px;
-  }
-  .wp-element-caption {
-    font-size: var(--wp--preset--font-size--small);
-  }
+	img {
+		outline: 1px solid var(--wp--preset--color--base-4);
+		border: 6px solid var(--wp--preset--color--base);
+		box-shadow: var(--wp--preset--shadow--x-large);
+		border-radius: 8px;
+	}
+	.wp-element-caption {
+		font-size: var(--wp--preset--font-size--small);
+	}
 }

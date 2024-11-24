@@ -3,8 +3,8 @@
  */
 
 /* Import Custom Block Styles & Block Variations */
-import "./block-styles.js";
-import "./block-variations.js";
+import './block-styles.js';
+import './block-variations.js';
 
-import "./js/blocks/core-group.js";
-import "./js/utilities/on-stuck.js";
+import './js/blocks/core-group.js';
+import './js/utilities/on-stuck.js';
