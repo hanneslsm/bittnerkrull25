@@ -5,10 +5,9 @@
 	"scripts": {
 		"start": "wp-scripts start --config webpack.config.js --env development ",
 		"build": "wp-scripts build --config webpack.config.js --env production",
-		"lint:style": "wp-scripts lint-style",
-		"lint:resources": "wp-scripts lint-style 'resources/*' --fix",
-		"format": "wp-scripts format",
-		"format:resources": "wp-scripts format ./resources"
+		"lint": "wp-scripts lint-style 'src/*'",
+		"lint:fix": "wp-scripts lint-style 'src/*' --fix",
+		"format": "wp-scripts format 'src/**/*.{js,jsx,ts,tsx,css,scss,php}' '!src/fonts/**'"
 	},
 	"author": "hanneslsm",
 	"license": "GPL-2.0",
