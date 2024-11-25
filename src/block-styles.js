@@ -30,11 +30,6 @@ wp.blocks.registerBlockStyle( 'core/group', {
 	label: 'Hover: Spotlight',
 } );
 
-wp.blocks.registerBlockStyle( 'core/group', {
-	name: 'group--bittnerkrull-logo-wall',
-	label: 'BK Logo Wall',
-} );
-
 /**
  * Core List
  */
@@ -69,3 +64,11 @@ wp.blocks.registerBlockStyle( 'core/image', {
 	label: 'BK Screenshot',
 } );
 
+/**
+ * Core Gallery
+ */
+
+wp.blocks.registerBlockStyle( 'core/gallery', {
+	name: 'bittnerkrull-frontpage-logowall',
+	label: 'BK Logo Wall',
+} );
