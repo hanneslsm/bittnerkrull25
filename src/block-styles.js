@@ -14,6 +14,10 @@ wp.blocks.registerBlockStyle( 'core/cover', {
 	label: 'BK Produkte',
 } );
 
+wp.blocks.registerBlockStyle('core/cover', {
+	name: 'cover-link',
+	label: 'Link',
+});
 
 /**
  * Core Details

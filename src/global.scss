@@ -4,19 +4,21 @@
 
 @use "./scss/utilities/variables";
 @use "./scss/utilities/helpers";
-@use "./scss/utilities/on-mobile";
-@use "./scss/utilities/on-medium";
 @use "./scss/utilities/on-large";
+@use "./scss/utilities/on-medium";
+@use "./scss/utilities/on-mobile";
 @use "./scss/utilities/on-stuck";
 
 /* Blocks */
+@use "./scss/blocks/core-cover";
 @use "./scss/blocks/core-details";
 @use "./scss/blocks/core-group";
 @use "./scss/blocks/core-list";
 @use "./scss/blocks/core-paragraph";
 
 /* Custom bittnerkrull25 Stlying */
+@use "./scss/custom/bittnerkrull-logowall";
 @use "./scss/custom/bittnerkrull-screenshot";
 @use "./scss/custom/bittnerkrull-text-shadow";
 @use "./scss/custom/bittnerkrull-vorteile";
-@use "./scss/custom/bittnerkrull-logowall";
+
