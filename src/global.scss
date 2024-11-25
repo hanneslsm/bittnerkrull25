@@ -12,11 +12,11 @@
 /* Blocks */
 @use "./scss/blocks/core-cover";
 @use "./scss/blocks/core-details";
-@use "./scss/blocks/core-group";
 @use "./scss/blocks/core-list";
 @use "./scss/blocks/core-paragraph";
 
 /* Custom bittnerkrull25 Stlying */
+@use "./scss/custom/bittnerkrull-frontpage";
 @use "./scss/custom/bittnerkrull-logowall";
 @use "./scss/custom/bittnerkrull-screenshot";
 @use "./scss/custom/bittnerkrull-text-shadow";
