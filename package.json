@@ -5,7 +5,7 @@
 	"scripts": {
 		"start": "wp-scripts start --config webpack.config.js --env development ",
 		"build": "wp-scripts build --config webpack.config.js --env production",
-		"lint": "wp-scripts lint-style 'src/*'",
+		"lint:style": "wp-scripts lint-style 'src/*'",
 		"lint:fix": "wp-scripts lint-style 'src/*' --fix",
 		"format": "wp-scripts format 'src/**/*.{js,jsx,ts,tsx,css,scss,php}' '!src/fonts/**'"
 	},
