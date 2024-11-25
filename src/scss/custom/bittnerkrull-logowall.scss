@@ -9,17 +9,3 @@
 }
 
 
-.is-style-bittnerkrull-frontpage-logowall {
-	figure {
-		max-width: 120px;
-		filter: grayscale(100%) opacity(0.6);
-		transition: all 200ms ease-in-out;
-	}
-
-	figure:hover {
-		filter: none;
-		transform: scale(1.2);
-		z-index: 999;
-		box-shadow: var(--wp--preset--shadow--large);
-	}
-}

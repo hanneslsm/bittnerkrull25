@@ -1,5 +1,18 @@
-/* Cover
---------------------------------------------- */
+.is-style-bittnerkrull-frontpage-logowall {
+	figure {
+		max-width: 120px;
+		filter: grayscale(100%) opacity(0.6);
+		transition: all 200ms ease-in-out;
+	}
+
+	figure:hover {
+		filter: none;
+		transform: scale(1.2);
+		z-index: 999;
+		box-shadow: var(--wp--preset--shadow--large);
+	}
+}
+
 
 /* Produkte - Text Reveal */
 .is-style-cover--bittnerkrull-produkte {
@@ -40,5 +53,25 @@
 	}
 	&:hover h4 a:after {
 		content: " →";
+	}
+}
+
+/**
+ * Helper class: Text Shadow
+ */
+
+ .bittnerkrull-text-shadow {
+	p {
+		text-shadow:
+			0px 3px 16px #004f71,
+			0px 3px 3px rgba(0, 0, 0, 0.8);
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.9);
 	}
 }
