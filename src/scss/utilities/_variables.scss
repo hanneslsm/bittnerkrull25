@@ -1,2 +1,8 @@
-$mobile: 575px;
-$tablet: 992px;
+/**
+* Variables
+* Breakpoints are inspired by https://github.com/WordPress/gutenberg/blob/trunk/packages/components/src/utils/breakpoint-values.js
+*/
+$large: 960px;
+$medium: 782px;
+$mobile: 480px;
+

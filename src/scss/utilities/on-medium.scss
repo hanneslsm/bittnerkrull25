@@ -1,0 +1,23 @@
+/**
+ * On Tablet
+ * For Tablet use $medium
+ */
+@use './variables' as *;
+
+
+@media (max-width: $medium) {
+	.on-tablet-left {
+		justify-content: flex-start !important;
+		text-align: left;
+	}
+
+	.on-tablet-center {
+		justify-content: center !important;
+		text-align: center;
+	}
+
+	.on-tablet-flex-row {
+		flex-direction: row;
+		border: 1px solid red;
+	}
+}

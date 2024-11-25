@@ -2,14 +2,20 @@
  * On Mobile
  * Breakpoints are inspired by https://github.com/WordPress/gutenberg/blob/trunk/packages/components/src/utils/breakpoint-values.js
  */
+@use './variables' as *;
 
-@media (max-width: 600px) {
-	.is-style-on-mobile-left {
+@media (max-width: $mobile) {
+	.on-mobile-left {
 		justify-content: flex-start !important;
 		text-align: left;
 		> * {
 			justify-content: flex-start !important;
 			text-align: left;
 		}
+	}
+
+	.on-mobile-center {
+		justify-content: center !important;
+		text-align: center;
 	}
 }

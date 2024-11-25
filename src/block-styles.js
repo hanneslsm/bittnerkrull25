@@ -69,20 +69,3 @@ wp.blocks.registerBlockStyle( 'core/image', {
 	label: 'BK Screenshot',
 } );
 
-/**
- * Multiple Blocks
- */
-
-[ 'core/group', 'core/paragraph' ].forEach( ( block ) => {
-	wp.blocks.registerBlockStyle( block, {
-		name: 'on-mobile-left',
-		label: '📱 Left',
-	} );
-} );
-
-[ 'core/group', 'core/paragraph' ].forEach( ( block ) => {
-	wp.blocks.registerBlockStyle( block, {
-		name: 'on-tablet-left',
-		label: '📱📺 Left',
-	} );
-} );
