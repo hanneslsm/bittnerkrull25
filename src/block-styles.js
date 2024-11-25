@@ -14,6 +14,7 @@ wp.blocks.registerBlockStyle( 'core/cover', {
 	label: 'BK Produkte',
 } );
 
+
 /**
  * Core Details
  */
@@ -22,13 +23,6 @@ wp.blocks.registerBlockStyle( 'core/details', {
 	label: 'Plus style',
 } );
 
-/**
- * Core Group
- */
-wp.blocks.registerBlockStyle( 'core/group', {
-	name: 'group-spotlight',
-	label: 'Hover: Spotlight',
-} );
 
 /**
  * Core List
