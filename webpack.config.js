@@ -6,6 +6,7 @@ const { merge } = require( 'webpack-merge' );
 
 module.exports = function ( env ) {
 	const isProduction = env && env.production;
+	console.log(`#### isProduction: ${isProduction} ####`);
 
 	// Define plugins array and conditionally push plugins
 	const plugins = [ ...( defaultConfig.plugins || [] ) ];
@@ -28,6 +29,12 @@ module.exports = function ( env ) {
 						resize: {
 							width: 2560,
 							withoutEnlargement: true,
+						},
+						encodeOptions: {
+							jpeg: { quality: 70 },
+							png: { quality: 70 },
+							webp: { quality: 70 },
+							avif: { quality: 70 },
 						},
 					},
 				},
