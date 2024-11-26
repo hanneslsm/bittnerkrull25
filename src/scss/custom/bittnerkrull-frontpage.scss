@@ -13,7 +13,6 @@
 	}
 }
 
-
 /* Produkte - Text Reveal */
 .is-style-cover--bittnerkrull-produkte {
 	text-shadow:
@@ -23,13 +22,13 @@
 		transition: all 200ms ease-in-out;
 		interpolate-size: allow-keywords;
 	}
-	.wp-block-cover__inner-container div {
+	.wp-block-cover__inner-container p {
 		opacity: 0;
 		transform: scaleY(0);
 		transform-origin: 50% 100%;
 		height: 0px;
 	}
-	&:hover .wp-block-cover__inner-container div {
+	&:hover .wp-block-cover__inner-container p {
 		opacity: 1;
 		transform: scaleY(1);
 		height: auto;
@@ -44,15 +43,21 @@
 		opacity: 1;
 	}
 
-	/* Styling */
-	.wp-block-buttons {
-		text-shadow: none;
-	}
+	a,
 	h4 a {
+		color: white;
 		text-decoration: none;
 	}
-	&:hover h4 a:after {
-		content: " →";
+
+	a:after {
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		content: "";
+		overflow: clip;
 	}
 }
 
@@ -60,7 +65,7 @@
  * Helper class: Text Shadow
  */
 
- .bittnerkrull-text-shadow {
+.bittnerkrull-text-shadow {
 	p {
 		text-shadow:
 			0px 3px 16px #004f71,

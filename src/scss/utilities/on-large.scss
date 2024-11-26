@@ -2,11 +2,9 @@
  * On Desktop
  * For Tablet use $large
  */
-@use './variables' as *;
-
+@use "./variables" as *;
 
 @media (min-width: $medium) and (max-width: $large) {
-
 	.on-large-only-flex-column {
 		flex-direction: column !important;
 	}
@@ -17,7 +15,6 @@
 }
 
 @media (max-width: $large) {
-
 	.on-large-flex-column {
 		flex-direction: column !important;
 	}
@@ -26,4 +23,3 @@
 		flex-direction: row !important;
 	}
 }
-

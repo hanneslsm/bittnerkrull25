@@ -2,7 +2,7 @@
  * On Mobile
  * Breakpoints are inspired by https://github.com/WordPress/gutenberg/blob/trunk/packages/components/src/utils/breakpoint-values.js
  */
-@use './variables' as *;
+@use "./variables" as *;
 
 @media (max-width: $mobile) {
 	.on-mobile-left {
