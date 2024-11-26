@@ -7,8 +7,12 @@
 		"build": "wp-scripts build --config webpack.config.js --env production",
 		"lint:style": "wp-scripts lint-style 'src/*'",
 		"lint:fix": "wp-scripts lint-style 'src/*' --fix",
-		"format": "wp-scripts format 'src/**/*.{js,jsx,ts,tsx,css,scss,php}' '!src/fonts/**'"
+		"format": "wp-scripts format 'src/**/*.{js,jsx,ts,tsx,css,scss,php}' '!src/fonts/**'",
+		"zip": "wp-scripts plugin-zip"
 	},
+	"files": [
+		"/*", "!/bittnerkrull25",  "!/bittnerkrull25.zip", "!/src", "!.vscode", "!.editorconfig", "!.gitignore", "!package.json", "!webpack.config.js"
+	],
 	"author": "hanneslsm",
 	"license": "GPL-2.0",
 	"description": "",
