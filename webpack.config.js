@@ -27,14 +27,14 @@ module.exports = function ( env ) {
 					implementation: ImageMinimizerPlugin.sharpMinify,
 					options: {
 						resize: {
-							width: 2560,
+							width: 1920,
 							withoutEnlargement: true,
 						},
 						encodeOptions: {
-							jpeg: { quality: 70 },
-							png: { quality: 70 },
-							webp: { quality: 70 },
-							avif: { quality: 70 },
+							jpeg: { quality: 50 },
+							png: { quality: 50 },
+							webp: { quality: 50 },
+							avif: { quality: 50 },
 						},
 					},
 				},
