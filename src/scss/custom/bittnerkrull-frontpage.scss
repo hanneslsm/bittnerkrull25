@@ -22,13 +22,13 @@
 		transition: all 200ms ease-in-out;
 		interpolate-size: allow-keywords;
 	}
-	.wp-block-cover__inner-container p {
+	.wp-block-cover__inner-container .reveal {
 		opacity: 0;
 		transform: scaleY(0);
 		transform-origin: 50% 100%;
 		height: 0px;
 	}
-	&:hover .wp-block-cover__inner-container p {
+	&:hover .wp-block-cover__inner-container .reveal {
 		opacity: 1;
 		transform: scaleY(1);
 		height: auto;
@@ -49,16 +49,16 @@
 		text-decoration: none;
 	}
 
-	a:after {
-		display: block;
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		content: "";
-		overflow: clip;
-	}
+	// a:after {
+	// 	display: block;
+	// 	position: absolute;
+	// 	left: 0;
+	// 	top: 0;
+	// 	width: 100%;
+	// 	height: 100%;
+	// 	content: "";
+	// 	overflow: clip;
+	// }
 }
 
 /**
