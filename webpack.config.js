@@ -27,7 +27,7 @@ module.exports = function ( env ) {
 					implementation: ImageMinimizerPlugin.sharpMinify,
 					options: {
 						resize: {
-							width: 1920,
+							width: 2560,
 							withoutEnlargement: true,
 						},
 						encodeOptions: {
