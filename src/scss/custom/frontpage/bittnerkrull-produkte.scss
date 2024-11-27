@@ -1,0 +1,60 @@
+/**
+ * Block Style: BittnerKrull Produkte (Cover mit Text Reveal)
+ * Frontpage
+ */
+
+ .is-style-bittnerkrull-produkte {
+	text-shadow:
+	  0px 3px 16px #004f71,
+	  0px 3px 3px rgba(0, 0, 0, 0.8);
+
+	/* Link Block */
+	a:after {
+	  display: block;
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	  width: 100%;
+	  height: 100%;
+	  content: "";
+	  overflow: clip;
+	}
+
+	/* Animation */
+	* {
+	  transition: all 200ms ease-in-out;
+	  interpolate-size: allow-keywords;
+	}
+
+	.has-background-dim {
+	  opacity: 0;
+	  display: none;
+	}
+	&:hover .has-background-dim {
+	  display: inherit;
+	  opacity: 1;
+	}
+
+	/* Reveal Class */
+	.wp-block-cover__inner-container .reveal {
+	  opacity: 0;
+	  transform: scaleY(0);
+	  transform-origin: 50% 100%;
+	  height: 0px;
+	}
+	&:hover .wp-block-cover__inner-container .reveal {
+	  opacity: 1;
+	  transform: scaleY(1);
+	  height: auto;
+	}
+
+	/* Styling */
+	a,
+	h4 a {
+	  color: white;
+	  text-decoration: none;
+	}
+	.wp-block-button {
+	  text-shadow: none;
+	}
+  }
