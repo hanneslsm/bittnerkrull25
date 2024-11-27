@@ -5,13 +5,14 @@ const ImageMinimizerPlugin = require( 'image-minimizer-webpack-plugin' );
 const { merge } = require( 'webpack-merge' );
 
 module.exports = function ( env ) {
-	const isProduction = env && env.production;
-	console.log(`#### isProduction: ${isProduction} ####`);
+	const ENV = env && env.NODE_ENV === 'production' ? 'production' : 'development';
+    console.log(`#### ${ENV} ####`);
+
 
 	// Define plugins array and conditionally push plugins
 	const plugins = [ ...( defaultConfig.plugins || [] ) ];
 
-	if ( isProduction ) {
+	if ( ENV === 'production' ) {
 		// Copy images and minimize them only in production
 		plugins.push(
 			new CopyWebpackPlugin( {
@@ -51,6 +52,6 @@ module.exports = function ( env ) {
 			'js/global': path.resolve( __dirname, 'src', 'global.js' ),
 		},
 		plugins, // Use the plugins array
-		mode: isProduction ? 'production' : 'development',
+		mode: ENV,
 	} );
 };
