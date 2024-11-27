@@ -10,7 +10,7 @@ wp.blocks.registerBlockStyle( 'core/cover', {
 } );
 
 wp.blocks.registerBlockStyle( 'core/cover', {
-	name: 'cover--bittnerkrull-produkte',
+	name: 'bittnerkrull-produkte',
 	label: 'BK Produkte',
 } );
 
