@@ -1,10 +1,9 @@
 .cr_form {
-
-	label{
+	label {
 		margin-top: 24px;
 		font-size: var(--wp--preset--font-size--small);
 	}
-	input[type=text] {
+	input[type="text"] {
 		border-radius: 6px;
 		line-height: 2.5;
 		font-size: 1rem;
@@ -12,7 +11,7 @@
 		border: none;
 		margin-bottom: var(--wp--preset--spacing--20);
 	}
-	button{
+	button {
 		background-color: var(--wp--preset--color--brand-3);
 		color: var(--wp--preset--color--base);
 		padding: 12px 24px;
