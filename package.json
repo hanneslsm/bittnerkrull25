@@ -8,16 +8,25 @@
 		"lint:style": "wp-scripts lint-style 'src/*'",
 		"lint:fix": "wp-scripts lint-style 'src/*' --fix",
 		"format": "wp-scripts format 'src/**/*.{js,jsx,ts,tsx,css,scss,php}' '!src/fonts/**'",
-		"zip": "wp-scripts plugin-zip"
+		"zip": "wp-scripts plugin-zip",
+		"packages-update": "wp-scripts packages-update"
 	},
 	"files": [
-		"/*", "!/bittnerkrull25",  "!/bittnerkrull25.zip", "!/src", "!.vscode", "!.editorconfig", "!.gitignore", "!package.json", "!webpack.config.js"
+		"/*",
+		"!/bittnerkrull25",
+		"!/bittnerkrull25.zip",
+		"!/src",
+		"!.vscode",
+		"!.editorconfig",
+		"!.gitignore",
+		"!package.json",
+		"!webpack.config.js"
 	],
 	"author": "hanneslsm",
 	"license": "GPL-2.0",
 	"description": "",
 	"devDependencies": {
-		"@wordpress/scripts": "^30.1.0",
+		"@wordpress/scripts": "^30.6.0",
 		"copy-webpack-plugin": "^12.0.2",
 		"glob": "^11.0.0",
 		"image-minimizer-webpack-plugin": "^4.1.1",
