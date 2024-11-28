@@ -1,5 +1,6 @@
 /** Register Block Styles
  * --------------------------------------------- */
+import { registerBlockStyle } from '@wordpress/blocks';
 
 /**
  * Core Cover
