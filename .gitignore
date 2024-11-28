@@ -7,10 +7,8 @@ Thumbs.db
 # Build Systems & Files
 node_modules/
 /build
-/build/css
-/build/js
 
-# WordPres Files
+# WordPress Files
 wp-content/*
 wp-config.php
 !wp-content/mu-plugins/
@@ -25,6 +23,3 @@ wp-config.php
 
 # htaccess
 /.htaccess
-
-#Ressources
-/resources/images
