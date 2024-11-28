@@ -1,7 +1,8 @@
 /**
- * On Desktop
- * For Tablet use $large
+ * On Large
+ * For Tablet use $large or $medium
  */
+
 @use "./variables" as *;
 
 @media (min-width: $medium) and (max-width: $large) {

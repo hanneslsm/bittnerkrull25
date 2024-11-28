@@ -1,3 +1,7 @@
+/**
+ * On Stuck
+ */
+
 @use "./variables" as *;
 
 @media screen and (min-width: $medium) {
@@ -8,7 +12,6 @@
 			padding-top: var(--wp--preset--spacing--30);
 		}
 	}
-
 }
 
 .on-stuck-has-layers {

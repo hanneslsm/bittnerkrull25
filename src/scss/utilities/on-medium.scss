@@ -1,7 +1,8 @@
 /**
- * On Tablet
- * For Tablet use $medium
+ * On Medium
+ * For Tablet use $large or $medium
  */
+
 @use "./variables" as *;
 
 @media (max-width: $medium) {
