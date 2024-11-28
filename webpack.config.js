@@ -14,6 +14,7 @@ module.exports = function (env) {
 	const plugins = [
 		...(defaultConfig.plugins || []),
 		new RemoveEmptyScriptsPlugin({
+			/* ensures it runs after `*.asset.php` files are generated */
 			stage: RemoveEmptyScriptsPlugin.STAGE_AFTER_PROCESS_PLUGINS
 		})
 	];
@@ -60,4 +61,5 @@ module.exports = function (env) {
 		plugins, // Use the plugins array
 		mode: mode,
 	});
+
 };
