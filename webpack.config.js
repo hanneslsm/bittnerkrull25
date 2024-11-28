@@ -3,6 +3,7 @@ const path = require("path");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 const { merge } = require("webpack-merge");
+const RemoveEmptyScriptsPlugin = require('webpack-remove-empty-scripts');
 
 module.exports = function (env) {
 	const isProduction = process.env.NODE_ENV === "production";
@@ -10,7 +11,12 @@ module.exports = function (env) {
 	console.log(`#### mode: ${mode} ####`);
 
 	// Define plugins array and conditionally push plugins
-	const plugins = [...(defaultConfig.plugins || [])];
+	const plugins = [
+		...(defaultConfig.plugins || []),
+		new RemoveEmptyScriptsPlugin({
+			stage: RemoveEmptyScriptsPlugin.STAGE_AFTER_PROCESS_PLUGINS
+		})
+	];
 
 	if (isProduction) {
 		// Copy images and minimize them only in production

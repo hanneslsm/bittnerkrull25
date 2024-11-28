@@ -32,7 +32,8 @@
 		"image-minimizer-webpack-plugin": "^4.1.1",
 		"imagemin": "^9.0.0",
 		"imagemin-webpack-plugin": "^2.4.2",
-		"sharp": "^0.33.5"
+		"sharp": "^0.33.5",
+		"webpack-remove-empty-scripts": "^1.0.4"
 	},
 	"dependencies": {
 		"gsap": "^3.12.5"
