@@ -69,6 +69,8 @@ add_action('enqueue_block_editor_assets', 'bittnerkrull25_enqueue_editor_styles'
 
 
 function bittnerkrull25_enqueue_block_styles() {
+	// Enqueue block styles
+
     // Define the directory containing block styles
     $blocks_dir = get_theme_file_path( 'build/css/blocks/' );
 
