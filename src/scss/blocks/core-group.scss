@@ -1,9 +1,19 @@
-/**
- * bittnerkrull
- * Helper class: Text Shadow
- */
+/* Group
+--------------------------------------------- */
 
-.bittnerkrull-hero-text-shadow {
+.is-style-bittnerkrull-partner-logos {
+	figure {
+		transition: all 200ms ease-in-out;
+		max-width: 120px;
+	}
+	figure:hover {
+		transform: scale(1.2);
+	}
+}
+
+
+
+.is-style-bittnerkrull-hero {
 	h1,
 	h2,
 	h3,

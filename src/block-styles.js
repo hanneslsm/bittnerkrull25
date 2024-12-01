@@ -2,17 +2,19 @@
  * --------------------------------------------- */
 import { registerBlockStyle } from '@wordpress/blocks';
 
+
+/* ---- */
 /**
  * Core Cover
  */
-wp.blocks.registerBlockStyle( 'core/cover', {
-	name: 'cover--bittnerkrull-vorteile',
-	label: 'BK Vorteile',
-} );
+// wp.blocks.registerBlockStyle( 'core/cover', {
+// 	name: 'cover--bittnerkrull-vorteile',
+// 	label: 'BK Vorteile',
+// } );
 
 wp.blocks.registerBlockStyle( 'core/cover', {
-	name: 'bittnerkrull-produkte',
-	label: 'BK Produkte',
+	name: 'bittnerkrull-cover-hover-reveal',
+	label: 'BK Hover Reveal',
 } );
 
 wp.blocks.registerBlockStyle( 'core/cover', {
@@ -20,12 +22,14 @@ wp.blocks.registerBlockStyle( 'core/cover', {
 	label: 'Link',
 } );
 
+
 /**
- * Core Details
+ * Core Gallery
  */
-wp.blocks.registerBlockStyle( 'core/details', {
-	name: 'details-plus',
-	label: 'Plus style',
+
+wp.blocks.registerBlockStyle( 'core/gallery', {
+	name: 'bittnerkrull-frontpage-logos',
+	label: 'BK Logo Wall',
 } );
 
 /**
@@ -52,21 +56,4 @@ wp.blocks.registerBlockStyle( 'core/paragraph', {
 wp.blocks.registerBlockStyle( 'core/paragraph', {
 	name: 'paragraph-intro',
 	label: 'Intro Text',
-} );
-
-/**
- * Core Image
- */
-wp.blocks.registerBlockStyle( 'core/image', {
-	name: 'image--bittnerkrull-screenshot',
-	label: 'BK Screenshot',
-} );
-
-/**
- * Core Gallery
- */
-
-wp.blocks.registerBlockStyle( 'core/gallery', {
-	name: 'bittnerkrull-frontpage-logowall',
-	label: 'BK Logo Wall',
 } );

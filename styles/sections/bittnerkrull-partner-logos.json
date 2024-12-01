@@ -1,0 +1,26 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"blockTypes": ["core/group"],
+	"slug": "bittnerkrull-partner-logos",
+	"title": "BK Partner Logos",
+	"styles":{
+		"css": "/* see also src/styles/core-group.scss */",
+		"color": {
+			"background": "var:preset|color|brand-3",
+			"text": "var:preset|color|base"
+		},
+		"spacing": {
+			"padding": {
+				"bottom": "var:preset|spacing|30",
+				"top": "var:preset|spacing|30",
+				"left": "var:preset|spacing|30",
+				"right": "var:preset|spacing|30"
+			}
+		},
+		"border": {
+			"radius": "8px"
+		},
+		"shadow": "var:preset|shadow|x-large"
+	}
+}
