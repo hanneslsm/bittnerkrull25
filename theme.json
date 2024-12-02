@@ -803,6 +803,27 @@
 				"border": {
 					"radius": "8px"
 				}
+			},
+			"core/post-terms":{
+				"elements": {
+					"link":{
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover":{
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
+				}
+			},
+			"core/post-comments-link":{
+				"border": {
+					"style": "solid",
+					"width": "1px",
+					"color": "red"
+				}
 			}
 		},
 		"color": {
