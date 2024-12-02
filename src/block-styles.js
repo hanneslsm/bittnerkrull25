@@ -2,7 +2,6 @@
  * --------------------------------------------- */
 import { registerBlockStyle } from '@wordpress/blocks';
 
-
 /* ---- */
 /**
  * Core Cover
@@ -21,7 +20,6 @@ wp.blocks.registerBlockStyle( 'core/cover', {
 	name: 'cover-link',
 	label: 'Link',
 } );
-
 
 /**
  * Core Gallery
