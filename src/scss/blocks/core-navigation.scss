@@ -13,6 +13,9 @@
 		color: var(--wp--preset--color--contrast-3);
 	}
 }
-.wp-block-navigation a:not([href]):hover {
-	text-decoration: none;
+.wp-block-navigation a:not([href]) {
+	cursor: context-menu;
+	&:hover {
+		text-decoration: none;
+	}
 }
