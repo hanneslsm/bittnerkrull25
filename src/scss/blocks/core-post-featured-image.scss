@@ -1,0 +1,7 @@
+.wp-block-post-featured-image {
+	transition: transform 200ms ease-in-out;
+	padding-bottom: var(--wp--preset--spacing--20);
+	&:hover {
+		transform: scale(1.02);
+	}
+}
