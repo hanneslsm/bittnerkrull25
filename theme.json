@@ -461,6 +461,11 @@
 						}
 					}
 				}
+			},
+			"core/post-featured-image": {
+				"border": {
+					"radius": "8px"
+				}
 			}
 		},
 		"color": {
