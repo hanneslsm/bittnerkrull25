@@ -3,13 +3,13 @@
 	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
 	"blockTypes": ["core/image"],
 	"slug": "bittnerkrull-image-screenshot",
-	"title": "Screenshot",
+	"title": "BK Screenshot",
 	"styles":{
 		"css": "/* see also src/styles/core-image.scss */",
 		"border": {
 			"color":"var:preset|color|base",
 			"style": "solid",
-			"width": "1px",
+			"width": "4px",
 			"radius": "8px"
 		},
 		"shadow": "var:preset|shadow|x-large",
