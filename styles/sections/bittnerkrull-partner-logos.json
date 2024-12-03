@@ -21,6 +21,13 @@
 		"border": {
 			"radius": "8px"
 		},
-		"shadow": "var:preset|shadow|x-large"
+		"shadow": "var:preset|shadow|x-large",
+		"elements": {
+			"heading":{
+				"color": {
+					"text": "var:preset|color|base"
+				}
+			}
+		}
 	}
 }
