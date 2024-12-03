@@ -1,7 +1,10 @@
 /* Navigation
 --------------------------------------------- */
+@use "../utilities/variables" as *;
 
-.wp-block-navigation
+
+@media screen and (min-width: $medium) {
+	.wp-block-navigation
 	.has-child:not(.open-on-click):hover
 	> .wp-block-navigation__submenu-container {
 	width: 240px;
@@ -12,6 +15,12 @@
 	.wp-block-navigation-item a:hover {
 		color: var(--wp--preset--color--contrast-3);
 	}
+	.wp-block-pages-list__item {
+		border-radius: 3px
+	}
+
+}
+
 }
 .wp-block-navigation a:not([href]) {
 	cursor: context-menu;
