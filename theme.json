@@ -175,32 +175,32 @@
 			"spacingSizes": [
 				{
 					"name": "small",
-					"size": "8px",
+					"size": "0.5rem",
 					"slug": "10"
 				},
 				{
 					"name": "medium",
-					"size": "clamp(16px, 0.625vw + 0.75rem, 20px)",
+					"size": "clamp(1rem, 0.625vw + 0.75rem, 1.25rem)",
 					"slug": "20"
 				},
 				{
 					"name": "large",
-					"size": "clamp(28px, 2.5vw, 36px)",
+					"size": "clamp(1.75rem, 2.5vw, 2.25rem)",
 					"slug": "30"
 				},
 				{
 					"name": "x-large",
-					"size": "clamp(48px, 2.5vw + 2rem, 64px)",
+					"size": "clamp(3rem, 2.5vw + 2rem, 4rem)",
 					"slug": "40"
 				},
 				{
 					"name": "xx-large",
-					"size": "clamp(64px, 2.5vw + 3rem, 80px)",
+					"size": "clamp(4rem, 2.5vw + 3rem, 5rem)",
 					"slug": "50"
 				},
 				{
 					"name": "xxx-large",
-					"size": "96px",
+					"size": "6rem",
 					"slug": "60"
 				}
 			],
