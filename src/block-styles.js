@@ -2,14 +2,25 @@
  * --------------------------------------------- */
 import { registerBlockStyle } from '@wordpress/blocks';
 
-/* ---- */
+/**
+ * Core Button
+ */
+
+wp.blocks.registerBlockStyle( 'core/button', {
+	name: 'bittnerkrull-button-brand',
+	label: 'BK Brand',
+} );
+
+wp.blocks.registerBlockStyle( 'core/button', {
+	name: 'bittnerkrull-button-base',
+	label: 'BK Base',
+} );
+
+
+
 /**
  * Core Cover
  */
-// wp.blocks.registerBlockStyle( 'core/cover', {
-// 	name: 'cover--bittnerkrull-vorteile',
-// 	label: 'BK Vorteile',
-// } );
 
 wp.blocks.registerBlockStyle( 'core/cover', {
 	name: 'bittnerkrull-cover-hover-reveal',
