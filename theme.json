@@ -422,6 +422,9 @@
 							}
 						}
 					}
+				},
+				"border": {
+					"radius": "4px"
 				}
 			},
 			"core/pullquote": {
@@ -479,6 +482,9 @@
 			"caption": {
 				"color": {
 					"text": "var:preset|color|contrast-5"
+				},
+				"typography": {
+					"fontSize": "var:preset|font-size|small"
 				}
 			},
 			"h1": {
