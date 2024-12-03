@@ -1,0 +1,40 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"blockTypes": ["core/group"],
+	"slug": "bittnerkrull-brand",
+	"title": "BK Brand",
+	"styles":{
+		"css": "/* see also src/styles/core-group.scss */",
+		"color": {
+			"background": "var:preset|color|brand-2",
+			"text": "var:preset|color|base-3"
+		},
+		"typography": {
+			"fontSize": "var:preset|font-size|small"
+		},
+		"elements": {
+			"heading":{
+				"color": {
+					"text": "var:preset|color|base-2"
+				}
+			},
+			"link":{
+				"color": {
+					"text": "var:preset|color|base-5"
+				},
+				"typography": {
+					"textDecoration": "none"
+				},
+				":hover":{
+					"color": {
+						"text": "var:preset|color|base"
+					},
+					"typography": {
+						"textDecoration": "underline"
+					}
+				}
+			}
+		}
+	}
+}
