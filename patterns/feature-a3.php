@@ -19,7 +19,7 @@
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"grid","minimumColumnWidth":"12rem"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"border":{"left":{"color":"var:preset|color|brand-3","width":"2px"}},"spacing":{"padding":{"left":"var:preset|spacing|20"}}}} -->
-<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sLorem Ipsum Dolor%2$s', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -30,7 +30,7 @@ echo sprintf( esc_html__( '%1$sLorem Ipsum Dolor%2$s', 'bittnerkrull25' ), '<str
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"border":{"left":{"color":"var:preset|color|brand-3","width":"2px"}},"spacing":{"padding":{"left":"var:preset|spacing|20"}}}} -->
-<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sConsectetur Adipiscing%2$s', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -41,7 +41,7 @@ echo sprintf( esc_html__( '%1$sConsectetur Adipiscing%2$s', 'bittnerkrull25' ), 
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"border":{"left":{"color":"var:preset|color|brand-3","width":"2px"}},"spacing":{"padding":{"left":"var:preset|spacing|20"}}}} -->
-<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sEtiam Vehicula%2$s', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -52,7 +52,7 @@ echo sprintf( esc_html__( '%1$sEtiam Vehicula%2$s', 'bittnerkrull25' ), '<strong
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"border":{"left":{"color":"var:preset|color|brand-3","width":"2px"}},"spacing":{"padding":{"left":"var:preset|spacing|20"}}}} -->
-<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sMauris Gravida%2$s', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -63,7 +63,7 @@ echo sprintf( esc_html__( '%1$sMauris Gravida%2$s', 'bittnerkrull25' ), '<strong
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"border":{"left":{"color":"var:preset|color|brand-3","width":"2px"}},"spacing":{"padding":{"left":"var:preset|spacing|20"}}}} -->
-<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sQuisque Blandit%2$s', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -74,7 +74,7 @@ echo sprintf( esc_html__( '%1$sQuisque Blandit%2$s', 'bittnerkrull25' ), '<stron
 
 <!-- wp:group {"className":"is-style-default","style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group is-style-default"><!-- wp:paragraph {"style":{"border":{"left":{"color":"var:preset|color|brand-3","width":"2px"}},"spacing":{"padding":{"left":"var:preset|spacing|20"}}}} -->
-<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sCurabitur Vulputate%2$s', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -88,7 +88,7 @@ echo sprintf( esc_html__( '%1$sCurabitur Vulputate%2$s', 'bittnerkrull25' ), '<s
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"metadata":{"name":"on-stuck-has-padding"},"className":"on-stuck-has-padding","style":{"position":{"type":"sticky","top":"0px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group on-stuck-has-padding"><!-- wp:image {"lightbox":{"enabled":true},"scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-image\u002d\u002dbittnerkrull-screenshot"} -->
-<figure class="wp-block-image size-large is-style-image--bittnerkrull-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
+<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>

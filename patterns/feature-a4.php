@@ -23,7 +23,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<p><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sEt obcaecati nesciunt eum debitis%2$s', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -38,7 +38,7 @@ echo sprintf( esc_html__( '%1$sEt obcaecati nesciunt eum debitis%2$s', 'bittnerk
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<p><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sEt tempora voluptatem%2$s', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -52,7 +52,7 @@ echo sprintf( esc_html__( '%1$sEt tempora voluptatem%2$s', 'bittnerkrull25' ), '
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"metadata":{"name":"on-stuck-has-padding"},"className":"on-stuck-has-padding","style":{"position":{"type":"sticky","top":"0px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group on-stuck-has-padding"><!-- wp:image {"lightbox":{"enabled":true},"scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-image\u002d\u002dbittnerkrull-screenshot"} -->
-<figure class="wp-block-image size-large is-style-image--bittnerkrull-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
+<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
