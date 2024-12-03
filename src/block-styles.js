@@ -32,6 +32,15 @@ wp.blocks.registerBlockStyle( 'core/cover', {
 	label: 'Link',
 } );
 
+
+/**
+ * Core Details
+ */
+wp.blocks.registerBlockStyle("core/details", {
+	name: "details-chevron",
+	label: "Chevron",
+  });
+
 /**
  * Core Gallery
  */
