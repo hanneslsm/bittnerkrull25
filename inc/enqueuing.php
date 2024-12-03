@@ -79,7 +79,9 @@ function bittnerkrull25_enqueue_block_styles() {
     foreach ( $block_styles as $style_path ) {
         // Extract the block name from the filename
         $filename = basename( $style_path, '.css' );
-        $block_name = str_replace( '-', '/', $filename ); // Convert 'core-group' to 'core/group'
+
+        // Replace only the first hyphen with a slash
+        $block_name = preg_replace( '/-/', '/', $filename, 1 );
 
         // Construct the URL for the stylesheet
         $style_uri = get_theme_file_uri( 'build/css/blocks/' . $filename . '.css' );
@@ -95,3 +97,4 @@ function bittnerkrull25_enqueue_block_styles() {
     }
 }
 add_action( 'init', 'bittnerkrull25_enqueue_block_styles' );
+
