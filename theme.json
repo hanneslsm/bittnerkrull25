@@ -366,6 +366,15 @@
 				},
 				"typography": {
 					"lineHeight": "1"
+				},
+				"variations": {
+					"outline": {
+						"border": {
+							"color": "currentColor",
+							"width": "1px"
+						},
+						"css": ".wp-block-button__link:not(.has-background):hover {background-color:color-mix(in srgb, var(--wp--preset--color--base-2) 15%, transparent) !important;}"
+					}
 				}
 			},
 			"core/categories": {
