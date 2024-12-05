@@ -4,7 +4,9 @@
 .is-style-details-chevron {
 	& summary {
 	  display: flex;
-	  justify-content: space-between;
+	  font-weight: 600;
+	  //justify-content: space-between;
+	  color: var(--wp--preset--color-contrast-2);
 
 	  transition: all 0.2s ease-in-out;
 	  /* remove rectangle on Safari */
@@ -24,7 +26,7 @@
 		height: 1.5em;
 		content: "\203A"; /* chevron */
 		font-weight: 400;
-		font-size: 1.2em;
+		//font-size: 1.2em;
 	  }
 	}
 	& p:first-of-type {
