@@ -389,7 +389,7 @@
 					}
 				},
 				"color": {
-					"background": "var:preset|color|brand-2"
+					"background": "var:preset|color|base-4"
 				}
 			},
 			"core/code": {
