@@ -41,6 +41,11 @@ wp.blocks.registerBlockStyle("core/details", {
 	label: "Chevron",
   });
 
+  wp.blocks.registerBlockStyle("core/details", {
+	name: "details-chevron-2",
+	label: "Chevron 2",
+  });
+
 /**
  * Core Gallery
  */

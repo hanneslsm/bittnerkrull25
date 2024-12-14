@@ -449,6 +449,11 @@
 					"radius": "8px"
 				}
 			},
+			"core/details": {
+				"border": {
+					"radius": "8px"
+				}
+			},
 			"core/post-terms": {
 				"typography": {
 					"fontSize": "var:preset|font-size|small"
