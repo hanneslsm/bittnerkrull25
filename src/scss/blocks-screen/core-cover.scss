@@ -30,11 +30,11 @@
 		text-shadow: none;
 	}
 
-			/* Animation */
-			* {
-				transition: all 200ms ease-in-out;
-				interpolate-size: allow-keywords;
-			}
+	/* Animation */
+	* {
+		transition: all 200ms ease-in-out;
+		interpolate-size: allow-keywords;
+	}
 }
 
 @media screen and (min-width: $medium) {

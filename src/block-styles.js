@@ -16,8 +16,6 @@ wp.blocks.registerBlockStyle( 'core/button', {
 	label: 'BK Base',
 } );
 
-
-
 /**
  * Core Cover
  */
@@ -32,19 +30,18 @@ wp.blocks.registerBlockStyle( 'core/cover', {
 	label: 'Link',
 } );
 
-
 /**
  * Core Details
  */
-wp.blocks.registerBlockStyle("core/details", {
-	name: "details-chevron",
-	label: "Chevron",
-  });
+wp.blocks.registerBlockStyle( 'core/details', {
+	name: 'details-chevron',
+	label: 'Chevron',
+} );
 
-  wp.blocks.registerBlockStyle("core/details", {
-	name: "details-chevron-2",
-	label: "Chevron 2",
-  });
+wp.blocks.registerBlockStyle( 'core/details', {
+	name: 'details-chevron-2',
+	label: 'Chevron 2',
+} );
 
 /**
  * Core Gallery
