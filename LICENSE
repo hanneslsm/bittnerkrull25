@@ -1,3 +1,30 @@
-/* LICENSE */
+*******************************************************************************
+**                            License Notice                                 **
+*******************************************************************************
 
-This WordPress theme, created by Studio Leismann, includes components licensed under the GNU General Public License (GPL) version 2.0 or later, alongside proprietary components developed exclusively by Studio Leismann. The GPL applies to components based on or derived from WordPress, granting modification and redistribution rights under GPL terms. However, all custom, proprietary components (e.g., unique designs, independent scripts, and non-GPL-reliant code) are licensed exclusively by Studio Leismann and may not be redistributed or reused outside this theme. Redistribution of any part of this theme must respect these boundaries.
+This WordPress theme, created by Studio Leismann, incorporates components subject
+to the GNU General Public License (GPL) version 2.0 or later and proprietary
+components developed exclusively by Studio Leismann.
+
+===============================================================================
+1. **GPL Components**
+===============================================================================
+Any PHP files and scripts derived from or interacting with WordPress are licensed
+under GPL version 2.0 or later. Users are free to modify and redistribute these
+components under the terms of the GPL.
+
+===============================================================================
+2. **Proprietary Components**
+===============================================================================
+All original design assets (e.g., images, fonts, CSS not derived from GPL code)
+and custom JavaScript files not reliant on or derived from GPL-covered code are
+proprietary to Studio Leismann. Redistribution, reuse, or modification of these
+proprietary components is not permitted without explicit permission.
+
+===============================================================================
+3. **Redistribution Guidelines**
+===============================================================================
+Redistribution of this theme must comply with the GPL for covered components.
+Proprietary components must remain subject to their original licensing terms.
+
+*******************************************************************************
