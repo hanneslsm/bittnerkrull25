@@ -77,3 +77,9 @@ wp.blocks.registerBlockStyle( 'core/paragraph', {
 	name: 'paragraph-intro',
 	label: 'Intro Text',
 } );
+
+wp.blocks.registerBlockStyle( 'core/paragraph', {
+	name: 'paragraph-indicator',
+	label: 'Indicator',
+
+} );
