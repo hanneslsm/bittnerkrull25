@@ -16,11 +16,10 @@ jobs:
         fetch-depth: 2
         ref: develop
 
-    - name: Install NPM packages
-      run: npm install
-
-    - name: Generate build and optimize all images
-      run: npm run build
+    - name: 🔨 Build Project
+      run: |
+        npm install
+        npm run build
 
     - name: 📂 FTP Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
