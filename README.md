@@ -31,6 +31,7 @@ The theme employs `@wordpress/scripts` for the build process, streamlining the d
 5. For development with live reloading:
    `npm start`
 
+```
 bittnerkrull25/
 ├── .github/workflows/         # GitHub Actions workflows
 ├── assets/                    # Additional assets
@@ -54,7 +55,7 @@ bittnerkrull25/
 ├── theme.json                 # WordPress theme configuration
 ├── webpack.config.js          # Webpack configuration
 └── README.md                  # Project documentation
-
+```
 
 
 ## Custom Block Styles
