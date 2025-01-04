@@ -109,7 +109,7 @@ Check the Actions tab in GitHub for more information.
 
 ## License
 
-This theme is licensed under the [GNU General Public License v2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html), with proprietary elements exclusive to Studio Leismann. See [LICENSE.md](LICENSE.md) for details.
+This theme is licensed under the [GNU General Public License v2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html), with proprietary elements exclusive to Studio Leismann. See [LICENSE.md](LICENSE) for details.
 
 
 ## Credits
