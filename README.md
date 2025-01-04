@@ -9,7 +9,6 @@ BittnerKrull25 is a custom WordPress block theme developed by Studio Leismann fo
 - **Theme Settings:** Configurable options available via the theme.json file and a build process.
 - **Custom Blocks Styles:** Includes custom-designed blocks and styles for a cohesive look.
 - **Enhanced Asset Management:** Efficiently manages JavaScript and CSS with Webpack.
-- **GSAP Animations:** Smooth animations using GSAP, enhancing interactivity and engagement.
 
 ## Recommended Plugins
 - [Create Block Theme Plugin](https://wordpress.org/plugins/create-block-theme/): Recommended for easy exporting and customization of block themes.
@@ -32,29 +31,30 @@ The theme employs `@wordpress/scripts` for the build process, streamlining the d
 5. For development with live reloading:
    `npm start`
 
-## File Structure
-Here’s an overview of the primary folders relevant to development:
-
-```
 bittnerkrull25/
+├── .github/workflows/         # GitHub Actions workflows
+├── assets/                    # Additional assets
 ├── build/                     # Compiled theme files from /src
 ├── inc/                       # PHP files for theme functionality
+├── parts/                     # WordPress parts
+├── patterns/                  # WordPress patterns
 ├── src/                       # Source files for SCSS, JS, and other assets
-│   ├── scss/                  # SCSS files for styling
+│   ├── fonts/                 # Font files
+│   ├── images/                # Image files
 │   ├── js/                    # JavaScript files
-│   ├── block-styles.scss      # Registering custom block styles
-│   ├── block-variations.scss  # Registering custom block variations
+│   ├── scss/                  # SCSS files for styling
+│   ├── block-styles.js        # Registering custom block styles
+│   ├── block-variations.js    # Registering custom block variations
+│   ├── global.js              # Global scripts
 │   ├── global.scss            # Global styles
-│   ├── script.scss            # Styles for scripts
+│   ├── screen.scss            # Frontend-specific styles, not rendered in the editor
 │   └── editor.scss            # Editor-specific styles
+├── styles/                    # Block and section styles in .json format
+├── templates/                 # WordPress templates
 ├── theme.json                 # WordPress theme configuration
-└── webpack.config.js          # Webpack configuration
-```
+├── webpack.config.js          # Webpack configuration
+└── README.md                  # Project documentation
 
-### SCSS Files
-- **global.scss:** Contains global styles applied across the entire theme.
-- **script.scss:** Defines styles associated with JavaScript functionalities.
-- **editor.scss:** Provides styles specific to the WordPress block editor, ensuring a consistent editing experience.
 
 
 ## Custom Block Styles
@@ -79,8 +79,35 @@ Within the src/scss/ directory, create SCSS files corresponding to specific bloc
 In `src/scss/global.scss`, import the new SCSS file:
 `@use "./scss/core-button.scss";`
 
+## Deplyoment
+
+This repository includes an automated GitHub Actions workflow to deploy the project to the staging server whenever changes are pushed to the `main` branch. 
+The workflow:
+
+1. Pulls the latest code from the `main` branch.
+2. Installs dependencies and builds the project.
+3. Deploys the built files to the server via FTP.
+
+### Prerequisites
+- Configure the following GitHub repository secrets:
+ - `DEV_FTP_USER`: FTP username.
+ - `DEV_FTP_PASSWORD`: FTP password.
+
+### How It Works
+1. Push changes to the main branch
+2. The workflow runs automatically and deploys to the configured server.
+3. The build process will be run by the action and uploaded via FTP
+
+### Excluded Files
+Some files and folders are are excluded from deployment, e.g. `.git`, `node_modules/` or `src/`.
+
+Check the Actions tab in GitHub for more information.
+
+
 ## License
-This theme is licensed under the GNU General Public License v2.0, with proprietary elements exclusive to Studio Leismann. See LICENSE.md
+
+This theme is licensed under the [GNU General Public License v2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html), with proprietary elements exclusive to Studio Leismann. See [LICENSE.md](LICENSE.md) for details.
+
 
 ## Credits
 *   **Design and Development:** [Studio Leismann](https://www.studioleismann.com/)
