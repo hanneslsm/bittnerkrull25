@@ -1,1 +1,30 @@
+name: Develop Deploy 👨‍💻
 
+on:
+  push:
+    branches: [ develop ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 2
+        ref: develop
+
+    - name: Install NPM packages
+      run: npm install
+
+    - name: Generate build and optimize all images
+      run: npm run build
+
+    - name: 📂 FTP Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: hosting193260.ae92a.netcup.net
+        username: ${{ secrets.DEV_FTP_USER }}
+        password: ${{ secrets.DEV_FTP_PASSWORD }}
