@@ -81,5 +81,4 @@ wp.blocks.registerBlockStyle( 'core/paragraph', {
 wp.blocks.registerBlockStyle( 'core/paragraph', {
 	name: 'paragraph-indicator',
 	label: 'Indicator',
-
 } );
