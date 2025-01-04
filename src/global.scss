@@ -3,18 +3,12 @@
  */
 
 @use "./scss/utilities/variables";
+@use "./scss/utilities/has-font-size";
 @use "./scss/utilities/helpers";
 @use "./scss/utilities/on-large";
 @use "./scss/utilities/on-medium";
 @use "./scss/utilities/on-mobile";
 @use "./scss/utilities/on-stuck";
 
-
 /* Custom bittnerkrull25 Stlying */
-@use "./scss/custom/frontpage/bittnerkrull-hero";
-@use "./scss/custom/bittnerkrull-logowall";
-@use "./scss/custom/bittnerkrull-screenshot";
-@use "./scss/custom/bittnerkrull-vorteile";
 @use "./scss/custom/cleverreach-form";
-
-@use "./scss/custom/bittnerkrull-nav";

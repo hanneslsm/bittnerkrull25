@@ -1,14 +1,12 @@
 /* Paragraph
 --------------------------------------------- */
-
-.is-style-paragraph-kicker {
-	color: var(--wp--preset--color--contrast-6);
-	text-transform: uppercase;
-	font-size: clamp(0.75rem, 0.313vw + 0.625rem, 0.875rem);
-	font-weight: 600;
-	letter-spacing: clamp(0.063rem, 0.156vw + 0rem, 0.125rem);
-}
-
-.is-style-paragraph-intro {
-	font-size: clamp(1.125rem, 0.313vw + 1rem, 1.25rem);
+.is-style-paragraph-indicator {
+	padding-inline-start: var(--wp--preset--spacing--20);
+	text-indent: -2px; /* adjust the space of the border */
+	&::before {
+		position: relative;
+		content: "";
+		border: 1px solid var(--wp--preset--color--brand-3);
+		right: var(--wp--preset--spacing--20);
+	}
 }

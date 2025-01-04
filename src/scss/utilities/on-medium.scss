@@ -6,17 +6,17 @@
 @use "./variables" as *;
 
 @media (max-width: $medium) {
-	.on-tablet-left {
+	.on-medium-left {
 		justify-content: flex-start !important;
 		text-align: left;
 	}
 
-	.on-tablet-center {
+	.on-medium-center {
 		justify-content: center !important;
 		text-align: center;
 	}
 
-	.on-tablet-flex-row {
+	.on-medium-flex-row {
 		flex-direction: row;
 		border: 1px solid red;
 	}
