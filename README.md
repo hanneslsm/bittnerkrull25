@@ -62,7 +62,7 @@ bittnerkrull25/
 This process allows the custom style to be selectable in the block editor.
 In this theme, custom block styles are defined and registered as follows:
 
-1. Register the Block Style in `/src/block-style.js`
+1. Register the Block Style in `/src/block-style.js` or via a `.json` in `styles/`
 ```
 wp.blocks.registerBlockStyle('core/button', {
 	name: 'bittnerkrull-elevated',
@@ -70,15 +70,17 @@ wp.blocks.registerBlockStyle('core/button', {
 });
 ```
 2. Define the Style in SCSS:
-Within the src/scss/ directory, create SCSS files corresponding to specific blocks. For example, to add a custom style to the Button block, define the styles in src/scss/core-button.scss.
+Within the src/scss/ directory, create SCSS files corresponding to specific blocks. For example, to add a custom style to the Button block, define the styles in src/scss/blocks/core-button.scss.
 ```
 .is-style-bittnerkrull-elevated {
   border-bottom: 4px solid black;
 }
 ```
-3. Import the SCSS File:
+3. Import the SCSS File (not necessary for core blocks):
 In `src/scss/global.scss`, import the new SCSS file:
 `@use "./scss/core-button.scss";`
+Core blocks from `src/scss/blocks/` get automatically enqueued. 
+
 
 ## Deplyoment
 
