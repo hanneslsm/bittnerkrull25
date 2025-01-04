@@ -1,8 +1,8 @@
-name: Develop Deploy 👨‍💻
+name: 👨‍💻 Staging Deploy
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,3 +27,8 @@ jobs:
         server: hosting193260.ae92a.netcup.net
         username: ${{ secrets.DEV_FTP_USER }}
         password: ${{ secrets.DEV_FTP_PASSWORD }}
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/src/**
