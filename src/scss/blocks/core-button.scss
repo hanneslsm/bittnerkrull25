@@ -2,10 +2,9 @@
 * Block: Button
 * -------------------------------------- */
 
-.wp-block-button > .wp-block-button__link{
+.wp-block-button > .wp-block-button__link {
 	transition: box-shadow 300ms ease-in-out;
-
- }
+}
 
 /**
  * Default
@@ -35,7 +34,7 @@
 		}
 	}
 
-		/**
+	/**
 	* [Contrast-2]
 	*/
 	.is-style-section-contrast-2 & {
@@ -63,7 +62,7 @@
 			transparent
 		);
 	}
-	&:hover{
+	&:hover {
 		box-shadow: var(--wp--preset--shadow--medium);
 	}
 }
