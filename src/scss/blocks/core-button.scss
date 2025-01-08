@@ -1,5 +1,6 @@
-/* Block: Button
---------------------------------------------- */
+/**
+* Block: Button
+* -------------------------------------- */
 
 .wp-block-button > .wp-block-button__link{
 	transition: box-shadow 300ms ease-in-out;
@@ -19,11 +20,34 @@
 	&:hover {
 		box-shadow: var(--wp--preset--shadow--medium);
 	}
+
+	/**
+	* Section Styles
+	* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+	/**
+	* [Brand-3]
+	*/
+	.is-style-section-brand-3 & {
+		&:not(.has-background):hover {
+			background-color: var(--wp--preset--color--base-3);
+			color: var(--wp--preset--color--contrast-2);
+		}
+	}
+
+		/**
+	* [Contrast-2]
+	*/
+	.is-style-section-contrast-2 & {
+		&:not(.has-background):hover {
+			background-color: var(--wp--preset--color--base-3);
+		}
+	}
 }
 
 /**
 * Block Styles
-* -------------------------------------- */
+* ====================================== */
 
 /**
  * Outline
