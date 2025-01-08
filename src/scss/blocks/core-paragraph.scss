@@ -9,4 +9,17 @@
 		border: 1px solid var(--wp--preset--color--brand-3);
 		right: var(--wp--preset--spacing--20);
 	}
+
+	/**
+	 * Section Styles
+	 * -------------------------------------- */
+
+	/**
+ 	* Brand
+	*/
+	.is-style-section-brand-3 & {
+		&::before {
+			border: 1px solid var(--wp--preset--color--brand-7);
+		}
+	}
 }
