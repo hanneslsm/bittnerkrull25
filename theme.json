@@ -938,7 +938,7 @@
 			"link": {
 				":hover": {
 					"color": {
-						"text": "var(--wp--preset--color--brand)"
+						"text": "var:preset|color|brand"
 					}
 				},
 				"color": {
