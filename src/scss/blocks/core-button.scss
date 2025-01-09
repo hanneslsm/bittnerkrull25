@@ -1,24 +1,70 @@
-/* Block: Button
---------------------------------------------- */
+/**
+* Block: Button
+* -------------------------------------- */
+
+.wp-block-button > .wp-block-button__link {
+	transition: box-shadow 300ms ease-in-out;
+}
 
 /**
  * Default
  */
 .wp-block-button:not([class*="is-style-"]) > .wp-block-button__link,
-.wp-block-button.is-style-fill > .wp-block-button__link {
-	box-shadow: var(--wp--preset--shadow--medium);
-}
-
-.wp-block-button__link:hover {
+.wp-block-button.is-style-fill {
 	box-shadow: var(--wp--preset--shadow--small);
+
+	&:not(.has-background):hover {
+		background-color: var(--wp--preset--color--brand-2);
+	}
+	&:hover {
+		box-shadow: var(--wp--preset--shadow--medium);
+	}
+
+	/**
+	* Section Styles
+	* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+	/**
+	* [Brand-3]
+	*/
+	.is-style-section-brand-3 & {
+		&:not(.has-background):hover {
+			background-color: var(--wp--preset--color--base-3);
+			color: var(--wp--preset--color--contrast-2);
+		}
+	}
+
+	/**
+	* [Contrast-2]
+	*/
+	.is-style-section-contrast-2 & {
+		&:not(.has-background):hover {
+			background-color: var(--wp--preset--color--base-3);
+		}
+	}
 }
 
-.wp-block-button__link:not(.has-background):hover {
-	background-color: color-mix(
-		in srgb,
-		var(--wp--preset--color--brand-2) 95%,
-		transparent
-	);
+/**
+* Block Styles
+* ====================================== */
+
+/**
+ * Outline
+ */
+
+.wp-block-button.is-style-outline > .wp-block-button__link {
+	box-shadow: var(--wp--preset--shadow--small);
+
+	&:not(.has-background):hover {
+		background-color: color-mix(
+			in srgb,
+			var(--wp--preset--color--base-3) 15%,
+			transparent
+		);
+	}
+	&:hover {
+		box-shadow: var(--wp--preset--shadow--medium);
+	}
 }
 
 /**
@@ -28,13 +74,13 @@
 	> .wp-block-button__link {
 		color: var(--wp--preset--color--brand);
 		background-color: var(--wp--preset--color--brand-7);
-	}
-	:hover {
-		background-color: color-mix(
-			in srgb,
-			var(--wp--preset--color--brand-7) 92%,
-			transparent
-		);
+		&:hover {
+			background-color: color-mix(
+				in srgb,
+				var(--wp--preset--color--brand-7) 92%,
+				transparent
+			);
+		}
 	}
 }
 
@@ -45,12 +91,5 @@
 	> .wp-block-button__link {
 		background-color: var(--wp--preset--color--base-2);
 		color: var(--wp--preset--color--contrast-3);
-	}
-	:hover {
-		background-color: color-mix(
-			in srgb,
-			var(--wp--preset--color--base-2) 95%,
-			transparent
-		);
 	}
 }
