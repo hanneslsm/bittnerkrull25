@@ -24,9 +24,9 @@ jobs:
     - name: 📂 FTP Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: hosting193260.ae92a.netcup.net
-        username: ${{ secrets.DEV_FTP_USER }}
-        password: ${{ secrets.DEV_FTP_PASSWORD }}
+        server: ${{ secrets.STAGING_FTP_HOST }}
+        username: ${{ secrets.STAGING_FTP_USER }}
+        password: ${{ secrets.STAGING_FTP_PASSWORD }}
         exclude: |
           **/.git*
           **/.git*/**
