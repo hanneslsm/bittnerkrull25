@@ -47,3 +47,28 @@ body {
 .z-9999 {
 	z-index: 9999;
 }
+
+
+/* Top */
+
+.top-10{
+	top: var(--wp--preset--spacing--10) !important;
+}
+.top-20{
+	top: var(--wp--preset--spacing--20) !important;
+}
+.top-30{
+	top: var(--wp--preset--spacing--30) !important;
+}
+.top-40{
+	top: var(--wp--preset--spacing--40) !important;
+}
+.top-50{
+	top: var(--wp--preset--spacing--50) !important;
+}
+.top-60{
+	top: var(--wp--preset--spacing--60) !important;
+}
+.top-60{
+	top: var(--wp--preset--spacing--70) !important;
+}
