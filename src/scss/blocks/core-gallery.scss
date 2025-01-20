@@ -17,3 +17,13 @@
 		box-shadow: var(--wp--preset--shadow--large);
 	}
 }
+
+.is-style-gallery-scale-effect {
+	figure {
+		transition: all 200ms ease-in-out;
+		max-width: 120px;
+	}
+	figure:hover {
+		transform: scale(1.2);
+	}
+}

@@ -52,6 +52,11 @@ wp.blocks.registerBlockStyle( 'core/gallery', {
 	label: 'BK Logo Wall',
 } );
 
+wp.blocks.registerBlockStyle( 'core/gallery', {
+	name: 'gallery-scale-effect',
+	label: 'Scale Effect',
+} );
+
 /**
  * Core List
  */
