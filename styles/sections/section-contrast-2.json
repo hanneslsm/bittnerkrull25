@@ -37,12 +37,6 @@
 				"color": {
 					"background": "var:preset|color|base-2",
 					"text": "var:preset|color|contrast-3"
-				},
-				"css": ".wp-block-button__link:not(.has-background):hover {background-color:color-mix(in srgb, var(--wp--preset--color--base-2) 90%, transparent);}",
-				"variations": {
-					"outline": {
-						"css": ".wp-block-button__link:not(.has-background):hover {background-color:color-mix(in srgb, var(--wp--preset--color--base-2) 5%, transparent);}"
-					}
 				}
 			}
 		}
