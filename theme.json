@@ -395,6 +395,7 @@
 				"typography": {
 					"lineHeight": "1"
 				},
+				"shadow": "var:preset|shadow|small",
 				"variations": {
 					"outline": {
 						"border": {
