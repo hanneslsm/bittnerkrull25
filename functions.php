@@ -20,6 +20,9 @@ require get_template_directory() . '/inc/enqueuing.php';
 // Dashboard Widget
 require get_template_directory() . '/inc/dashboard-widget.php';
 
+// Tags
+require get_template_directory() . '/inc/tags.php';
+
 /**
  * Development only!
  */
