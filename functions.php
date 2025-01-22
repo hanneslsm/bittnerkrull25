@@ -29,7 +29,7 @@ require get_template_directory() . '/inc/tags.php';
 // Remove default CSS variables
 require get_template_directory() . '/inc/dev_remove-defaults.php';
 
-
-
-
-
+/**
+ * Blocks
+ */
+require get_template_directory() . '/inc/blocks/core-post-terms.php';
