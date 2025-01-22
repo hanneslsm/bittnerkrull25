@@ -88,11 +88,3 @@ wp.blocks.registerBlockStyle( 'core/paragraph', {
 	label: 'Indicator',
 } );
 
-
-/**
- * Post Terms
- */
-wp.blocks.registerBlockStyle( 'core/post-terms', {
-	name: 'post-terms-indicator',
-	label: 'Indicator',
-} );
