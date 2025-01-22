@@ -29,5 +29,4 @@ require get_template_directory() . '/inc/dev_remove-defaults.php';
 /**
  * Blocks
  */
-// Dashboard Widget
 require get_template_directory() . '/inc/blocks/core-post-terms.php';
