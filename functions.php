@@ -25,7 +25,7 @@ require get_template_directory() . '/inc/dashboard-widget.php';
  * Development only!
  */
 // Remove default CSS variables
-require get_template_directory() . '/inc/dev_remove-defaults.php';
+// require get_template_directory() . '/inc/dev_remove-defaults.php';
 
 /**
  * Blocks
