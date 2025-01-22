@@ -87,3 +87,12 @@ wp.blocks.registerBlockStyle( 'core/paragraph', {
 	name: 'paragraph-indicator',
 	label: 'Indicator',
 } );
+
+
+/**
+ * Post Terms
+ */
+wp.blocks.registerBlockStyle( 'core/post-terms', {
+	name: 'post-terms-indicator',
+	label: 'Indicator',
+} );
