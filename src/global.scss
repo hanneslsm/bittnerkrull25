@@ -2,7 +2,8 @@
  * global.css and global.js are loaded for both frontend and editor.
  */
 
-@use "./scss/utilities/variables";
+@use "./scss/base/variables";
+@use "./scss/base/global";
 @use "./scss/utilities/has-font-size";
 @use "./scss/utilities/helpers";
 @use "./scss/utilities/on-large";

@@ -1,6 +1,6 @@
 /* Navigation
 --------------------------------------------- */
-@use "../utilities/variables" as *;
+@use "../base/variables" as *;
 
 @media screen and (min-width: $medium) {
 	.wp-block-navigation

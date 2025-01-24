@@ -3,7 +3,7 @@
  * For Tablet use $large or $medium
  */
 
-@use "./variables" as *;
+@use "../base/variables" as *;
 
 @media (min-width: $medium) and (max-width: $large) {
 	.on-large-only-flex-column {
