@@ -3,7 +3,7 @@
  * For Tablet use $large or $medium
  */
 
-@use "./variables" as *;
+@use "../base/variables" as *;
 
 @media (max-width: $medium) {
 	.on-medium-left {
