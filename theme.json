@@ -582,8 +582,10 @@
 					"radius": "8px"
 				},
 				"color": {
+					"text": "var:preset|color|base",
 					"background": "var:preset|color|brand-3"
-				}
+				},
+				"shadow": "var:preset|shadow|small"
 			},
 			"caption": {
 				"color": {
