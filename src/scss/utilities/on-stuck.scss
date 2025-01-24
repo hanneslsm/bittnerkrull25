@@ -2,7 +2,7 @@
  * On Stuck
  */
 
-@use "./variables" as *;
+@use "../base/variables" as *;
 
 @media screen and (min-width: $medium) {
 	.on-stuck-has-padding {

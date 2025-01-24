@@ -2,7 +2,7 @@
  * On Mobile
  */
 
-@use "./variables" as *;
+@use "../base/variables" as *;
 
 @media screen and (max-width: $medium) {
 	.on-mobile-left {

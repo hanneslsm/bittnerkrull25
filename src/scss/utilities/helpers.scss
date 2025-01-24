@@ -2,12 +2,6 @@
  * Helper classes
  */
 
-body {
-	font-variation-settings: "slnt" 0; /* Bug Fix: Variable font is displayed italic */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-smooth: never;
-}
 
 .overflow-hidden {
 	overflow: hidden;
