@@ -5,9 +5,18 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"className":"is-style-section-brand-3","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|brand","width":"1px"},"right":[],"bottom":[],"left":[]},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"brand-2","fontSize":"small","layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group is-style-section-brand-3 has-brand-2-background-color has-background has-link-color has-small-font-size" style="border-top-color:var(--wp--preset--color--brand);border-top-width:1px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:group {"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:site-logo /-->
+<!-- wp:group {"className":"is-style-section-footer","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|brand","width":"1px"},"right":[],"bottom":[],"left":[]},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group is-style-section-footer has-link-color" style="border-top-color:var(--wp--preset--color--brand);border-top-width:1px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:group {"align":"wide"} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group"><!-- wp:site-logo /-->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline","style":{"border":{"color":"#ffffff45"}}} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-border-color wp-element-button" href="#top" style="border-color:#ffffff45"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+echo sprintf( esc_html__( 'nach oben %1$s↑%2$s', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
 
 <!-- wp:columns {"verticalAlignment":"center"} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"66.66%"} -->
@@ -17,11 +26,11 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"width":"162px","height":"auto","sizeSlug":"full","linkDestination":"none","className":"is-style-default","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}},"layout":{"selfStretch":"fit","flexSize":null},"border":{"radius":"0px"}}} -->
-<figure class="wp-block-image size-full is-resized has-custom-border is-style-default" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="http://bittnerkrull2.local//wp-content/themes/bittnerkrull25/assets/images/SAP_Certi_Integration_RISE_w_SAP_S4HANACloud_R_neg.png" alt="" style="border-radius:0px;width:162px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized has-custom-border is-style-default" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-56.png" alt="" class="" style="border-radius:0px;width:162px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"lightbox":{"enabled":false},"width":"113px","height":"auto","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"var:preset|spacing|10","bottom":"0"}}}} -->
-<figure class="wp-block-image size-full is-resized" style="margin-top:var(--wp--preset--spacing--10);margin-bottom:0"><img src="http://bittnerkrull2.local//wp-content/themes/bittnerkrull25/assets/images/TUV.png" alt="" style="width:113px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized" style="margin-top:var(--wp--preset--spacing--10);margin-bottom:0"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/TUV.png" alt="" style="width:113px;height:auto"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -29,7 +38,7 @@
 <!-- wp:column {"verticalAlignment":"center","width":"33.33%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:paragraph {"align":"right","className":"on-medium-left"} -->
 <p class="has-text-align-right on-medium-left"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element, 3. is a 'br' HTML element, 4. is the start of a 'a' HTML element, 5. is the end of a 'a' HTML element, 6. is a 'br' HTML element, 7. is the start of a 'a' HTML element, 8. is the end of a 'a' HTML element, 9. is a 'br' HTML element, 10. is the start of a 'a' HTML element, 11. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sDatenschutz%2$s%3$s%4$sAGB%5$s%6$s%7$sImpressum%8$s%9$s%10$sCookies%11$s', 'bittnerkrull25' ), '<a href="' . esc_url( 'http://bittnerkrull2.local//privacy-policy/' ) . '" data-type="page" data-id="3">', '</a>', '<br>', '<a href="' . esc_url( '#' ) . '">', '</a>', '<br>', '<a href="' . esc_url( '#' ) . '">', '</a>', '<br>', '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
+echo sprintf( esc_html__( '%1$sDatenschutz%2$s%3$s%4$sAGB%5$s%6$s%7$sImpressum%8$s%9$s%10$sCookies%11$s', 'bittnerkrull25' ), '<a href="' . esc_url( 'https://stdlsm.com/bittnerkrull/datenschutz/' ) . '" data-type="page" data-id="3396">', '</a>', '<br>', '<a href="' . esc_url( 'https://stdlsm.com/bittnerkrull/agb/' ) . '" data-type="page" data-id="3402">', '</a>', '<br>', '<a href="' . esc_url( 'https://stdlsm.com/bittnerkrull/impressum/' ) . '" data-type="page" data-id="3350">', '</a>', '<br>', '<a href="' . esc_url( '#' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

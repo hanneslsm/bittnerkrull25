@@ -51,15 +51,15 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"is-style-image\u002d\u002dbittnerkrull-screenshot"} -->
-<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class=""/></figure>
+<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"lightbox":{"enabled":true},"scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-image\u002d\u002dbittnerkrull-screenshot"} -->
-<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" style="object-fit:cover"/><figcaption class="wp-element-caption">Sample caption text</figcaption></figure>
+<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" style="object-fit:cover"/><figcaption class="wp-element-caption">Sample caption text</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"lightbox":{"enabled":true},"scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-image\u002d\u002dbittnerkrull-screenshot"} -->
-<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" style="object-fit:cover"/><figcaption class="wp-element-caption">Sample caption text</figcaption></figure>
+<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" style="object-fit:cover"/><figcaption class="wp-element-caption">Sample caption text</figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

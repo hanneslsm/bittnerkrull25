@@ -29,7 +29,7 @@
 
 <!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:image {"lightbox":{"enabled":true},"scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-image\u002d\u002dbittnerkrull-screenshot"} -->
-<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
+<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -39,7 +39,7 @@
 <div class="wp-block-group on-stuck-has-shadow on-stuck-has-padding"><!-- wp:columns {"verticalAlignment":null,"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"border":{"radius":"8px"}},"backgroundColor":"base-2"} -->
 <div class="wp-block-columns has-base-2-background-color has-background" style="border-radius:8px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"><!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:image {"lightbox":{"enabled":true},"scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-image\u002d\u002dbittnerkrull-screenshot"} -->
-<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
+<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -69,7 +69,7 @@
 
 <!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:image {"lightbox":{"enabled":true},"scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-image\u002d\u002dbittnerkrull-screenshot"} -->
-<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
+<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

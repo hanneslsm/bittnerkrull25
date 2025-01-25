@@ -18,7 +18,7 @@
 <div class="wp-block-group alignwide"><!-- wp:group {"style":{"border":{"radius":"8px"}},"backgroundColor":"base-2","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"space-between"}} -->
 <div class="wp-block-group has-base-2-background-color has-background" style="border-radius:8px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10","padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<p class="has-large-font-size"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sEa distinctio velit ut corrupti natus.%2$s', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -38,14 +38,14 @@ echo sprintf( esc_html__( '%1$sEa distinctio velit ut corrupti natus.%2$s', 'bit
 <!-- /wp:group -->
 
 <!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":{"topLeft":"0px","topRight":"0px"}}}} -->
-<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="border-top-left-radius:0px;border-top-right-radius:0px;aspect-ratio:16/9;object-fit:cover"/></figure>
+<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="border-top-left-radius:0px;border-top-right-radius:0px;aspect-ratio:16/9;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"border":{"radius":"8px"}},"backgroundColor":"base-2","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"space-between"}} -->
 <div class="wp-block-group has-base-2-background-color has-background" style="border-radius:8px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10","padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
+<p class="has-large-font-size"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$s%2$sVestibulum facilisis purus nec%3$s.%4$s', 'bittnerkrull25' ), '<strong>', '<strong>', '</strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -65,14 +65,14 @@ echo sprintf( esc_html__( '%1$s%2$sVestibulum facilisis purus nec%3$s.%4$s', 'bi
 <!-- /wp:group -->
 
 <!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":{"topLeft":"0px","topRight":"0px"}}}} -->
-<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="border-top-left-radius:0px;border-top-right-radius:0px;aspect-ratio:16/9;object-fit:cover"/></figure>
+<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="border-top-left-radius:0px;border-top-right-radius:0px;aspect-ratio:16/9;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"border":{"radius":"8px"}},"backgroundColor":"base-2","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"space-between"}} -->
 <div class="wp-block-group has-base-2-background-color has-background" style="border-radius:8px"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10","padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|20","right":"var:preset|spacing|20"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the start of a 'strong' HTML element, 4. is the end of a 'strong' HTML element, 5. is the end of a 'strong' HTML element, 6. is the end of a 'strong' HTML element */ 
+<p class="has-large-font-size"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the start of a 'strong' HTML element, 4. is the end of a 'strong' HTML element, 5. is the end of a 'strong' HTML element, 6. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$s%2$s%3$sMaecenas rhoncus massa nec nunc.%4$s%5$s%6$s', 'bittnerkrull25' ), '<strong>', '<strong>', '<strong>', '</strong>', '</strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -92,7 +92,7 @@ echo sprintf( esc_html__( '%1$s%2$s%3$sMaecenas rhoncus massa nec nunc.%4$s%5$s%
 <!-- /wp:group -->
 
 <!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":{"topLeft":"0px","topRight":"0px"}}}} -->
-<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="border-top-left-radius:0px;border-top-right-radius:0px;aspect-ratio:16/9;object-fit:cover"/></figure>
+<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="border-top-left-radius:0px;border-top-right-radius:0px;aspect-ratio:16/9;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
