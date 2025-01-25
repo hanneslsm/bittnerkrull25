@@ -29,9 +29,12 @@
 		);
 	}
 
-	&.has-background:hover{
+	&.has-background:hover {
 		// filter: brightness(0.95) contrast(1.1); /* Adjust brightness and contrast */
-		background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+		background-image: linear-gradient(
+			rgba(0, 0, 0, 0.2),
+			rgba(0, 0, 0, 0.2)
+		);
 		background-blend-mode: overlay;
 	}
 
@@ -109,7 +112,7 @@
 			);
 		}
 
-	/**
+		/**
 	* [Base-2]
 	*/
 		.is-style-section-base-2 & {
