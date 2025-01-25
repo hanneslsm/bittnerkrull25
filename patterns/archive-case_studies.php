@@ -9,7 +9,7 @@
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:template-part {"slug":"header-transparent","area":"uncategorized"} /-->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/DACH-Raum_neu-1-scaled.jpg","dimRatio":0,"isUserOverlayColor":true,"minHeight":540,"minHeightUnit":"px","contentPosition":"bottom center","className":"is-style-bittnerkrull-hero","style":{"border":{"bottom":{"color":"var:preset|color|brand-7","width":"6px"}},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"},"margin":{"top":"-90px"}},"color":{"duotone":"var:preset|duotone|duotone-brand"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover has-custom-content-position is-position-bottom-center is-style-bittnerkrull-hero" style="border-bottom-color:var(--wp--preset--color--brand-7);border-bottom-width:6px;margin-top:-90px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);min-height:540px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/DACH-Raum_neu-1-scaled.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":1,"align":"wide"} -->
+<div class="wp-block-cover has-custom-content-position is-position-bottom-center is-style-bittnerkrull-hero" style="border-bottom-color:var(--wp--preset--color--brand-7);border-bottom-width:6px;margin-top:-90px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);min-height:540px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background " alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/DACH-Raum_neu-1-scaled.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":1,"align":"wide"} -->
 <h1 class="wp-block-heading alignwide"><?php esc_html_e('Case Studies', 'bittnerkrull25');?></h1>
 <!-- /wp:heading --></div></div>
 <!-- /wp:cover -->
@@ -26,7 +26,7 @@
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:query {"queryId":0,"query":{"perPage":10,"pages":0,"offset":0,"postType":"case_studies","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"parents":[],"format":[]},"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-query alignwide"><!-- wp:post-template {"layout":{"type":"default"}} -->
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"border":{"radius":"8px","width":"1px","color":"#EAEBED"}},"backgroundColor":"base","layout":{"type":"default"}} -->
-<div class="wp-block-group has-border-color has-base-background-color has-background" style="border-color:#EAEBED;border-width:1px;border-radius:8px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-group has-border-color has-base-background-color has-background" style="border-color:#EAEBED;border-width:1px;border-radius:8px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:columns {"verticalAlignment":null,"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|30"}}}} -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":""} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:post-title {"level":3,"isLink":true} /-->
 
@@ -78,8 +78,7 @@ echo sprintf( esc_html__( '%1$sKeine Blogbeiträge gefunden.%2$s', 'bittnerkrull
 
 <!-- wp:group {"align":"wide","layout":{"type":"grid","minimumColumnWidth":null,"columnCount":1}} -->
 <div class="wp-block-group alignwide"><!-- wp:cover {"url":"https://stdlsm.com/bittnerkrull//wp-content/uploads/2024/10/luca-bravo-YoelVcKWmws-unsplash-scaled.jpg","hasParallax":true,"isUserOverlayColor":true,"minHeight":319,"minHeightUnit":"px","customGradient":"linear-gradient(90deg,rgb(0,79,113) 31%,rgba(0,79,112,0) 100%)","contentPosition":"center left","style":{"color":{"duotone":"var:preset|duotone|duotone-brand"},"border":{"radius":"16px","bottom":{"color":"#82FFFF","width":"6px"}},"spacing":{"blockGap":"var:preset|spacing|10","padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30","top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}},"heading":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","layout":{"type":"default"}} -->
-<div class="wp-block-cover has-parallax has-custom-content-position is-position-center-left has-base-color has-text-color has-link-color" style="border-radius:16px;border-bottom-color:#82FFFF;border-bottom-width:6px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);min-height:319px"><div class="wp-block-cover__image-background has-parallax" style="background-position:50% 50%;background-image:url(https://stdlsm.com/bittnerkrull//wp-content/uploads/2024/10/luca-bravo-YoelVcKWmws-unsplash-scaled.jpg)"></div><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim wp-block-cover__gradient-background has-background-gradient" style="background:linear-gradient(90deg,rgb(0,79,113) 31%,rgba(0,79,112,0) 100%)"></span><div class="wp-block-cover__inner-container">
-<!-- wp:html -->
+<div class="wp-block-cover has-parallax has-custom-content-position is-position-center-left has-base-color has-text-color has-link-color" style="border-radius:16px;border-bottom-color:#82FFFF;border-bottom-width:6px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);min-height:319px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim wp-block-cover__gradient-background has-background-gradient" style="background:linear-gradient(90deg,rgb(0,79,113) 31%,rgba(0,79,112,0) 100%)"></span><div class="wp-block-cover__image-background has-parallax" style="background-position:50% 50%;background-image:url(https://stdlsm.com/bittnerkrull//wp-content/uploads/2024/10/luca-bravo-YoelVcKWmws-unsplash-scaled.jpg)"></div><div class="wp-block-cover__inner-container"><!-- wp:html -->
 <form class="layout_form cr_form cr_font" action="https://seu2.cleverreach.com/f/136214-335065/wcs/" method="post" target="_blank">
 <div class="cr_body cr_page cr_font formbox">
 <div class="non_sortable">
@@ -104,8 +103,7 @@ echo sprintf( esc_html__( '%1$sKeine Blogbeiträge gefunden.%2$s', 'bittnerkrull
  
     
 </form>
-<!-- /wp:html -->
-</div></div>
+<!-- /wp:html --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:group -->
 

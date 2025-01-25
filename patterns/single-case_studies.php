@@ -5,6 +5,8 @@
  * Inserter: no
  */
 ?>
+<!-- wp:template-part {"slug":"header-transparent","area":"uncategorized"} /-->
+
 <!-- wp:group {"className":"","style":{"spacing":{"margin":{"top":"-90px","bottom":"0"},"blockGap":"0","padding":{"top":"0px"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="margin-top:-90px;margin-bottom:0;padding-top:0px"><!-- wp:group {"style":{"dimensions":{"minHeight":"430px"},"background":{"backgroundImage":{"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/CaseStudy-blue.png","id":3432,"source":"file","title":"CaseStudy-blue"},"backgroundSize":"cover","backgroundAttachment":"scroll"},"border":{"bottom":{"color":"var:preset|color|brand-7","width":"6px"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","flexWrap":"nowrap","verticalAlignment":"bottom"}} -->
 <div class="wp-block-group" style="border-bottom-color:var(--wp--preset--color--brand-7);border-bottom-width:6px;min-height:430px"><!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"82.5rem","wideSize":""}} -->

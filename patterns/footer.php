@@ -26,7 +26,7 @@ echo sprintf( esc_html__( 'nach oben %1$s↑%2$s', 'bittnerkrull25' ), '<strong>
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"width":"162px","height":"auto","sizeSlug":"full","linkDestination":"none","className":"is-style-default","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}},"layout":{"selfStretch":"fit","flexSize":null},"border":{"radius":"0px"}}} -->
-<figure class="wp-block-image size-full is-resized has-custom-border is-style-default" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-56.png" alt="" class="" style="border-radius:0px;width:162px;height:auto"/></figure>
+<figure class="wp-block-image size-full is-resized has-custom-border is-style-default" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/SAP_Certi_Integration_RISE_w_SAP_S4HANACloud_R_neg-1.png" alt="" style="border-radius:0px;width:162px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"lightbox":{"enabled":false},"width":"113px","height":"auto","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"var:preset|spacing|10","bottom":"0"}}}} -->

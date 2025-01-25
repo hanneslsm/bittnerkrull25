@@ -8,8 +8,8 @@
 <!-- wp:group {"className":"","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:template-part {"slug":"header-transparent","area":"uncategorized"} /-->
 
-<!-- wp:cover {"useFeaturedImage":true,"dimRatio":0,"isUserOverlayColor":true,"minHeight":540,"minHeightUnit":"px","contentPosition":"bottom center","isDark":false,"className":"is-style-bittnerkrull-hero","style":{"border":{"bottom":{"color":"var:preset|color|brand-7","width":"6px"}},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"},"margin":{"top":"-90px"}},"color":{"duotone":"var:preset|duotone|duotone-brand"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-center is-style-bittnerkrull-hero" style="border-bottom-color:var(--wp--preset--color--brand-7);border-bottom-width:6px;margin-top:-90px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);min-height:540px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":1,"align":"wide"} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image000293-Kopie-scaled.jpg","dimRatio":0,"isUserOverlayColor":true,"minHeight":540,"minHeightUnit":"px","contentPosition":"bottom center","className":"is-style-bittnerkrull-hero","style":{"border":{"bottom":{"color":"var:preset|color|brand-7","width":"6px"}},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"},"margin":{"top":"-90px"}},"color":{"duotone":"var:preset|duotone|duotone-brand"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover has-custom-content-position is-position-bottom-center is-style-bittnerkrull-hero" style="border-bottom-color:var(--wp--preset--color--brand-7);border-bottom-width:6px;margin-top:-90px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);min-height:540px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background " alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image000293-Kopie-scaled.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":1,"align":"wide"} -->
 <h1 class="wp-block-heading alignwide"><?php esc_html_e('Events', 'bittnerkrull25');?></h1>
 <!-- /wp:heading --></div></div>
 <!-- /wp:cover -->
@@ -108,9 +108,9 @@ echo sprintf( esc_html__( '%1$sKeine Blogbeiträge gefunden.%2$s', 'bittnerkrull
 </div><div id="7511846" rel="checkbox" class="cr_ipe_item ui-sortable musthave" >
 <label class="itemname">Einwilligung*</label>
 <div >
-
+ 
 <input id="Ich akzeptiere die Datenschutzerklärung7511846" class="cr_ipe_checkbox" name="1250437[]" value="Ich akzeptiere die Datenschutzerklärung" type="checkbox"  />Ich akzeptiere die Datenschutzerklärung&nbsp;
-
+ 
 </div>
 <br  />
 </div><div id="7508936" rel="button" class="cr_ipe_item ui-sortable submit_container" >
@@ -119,8 +119,8 @@ echo sprintf( esc_html__( '%1$sKeine Blogbeiträge gefunden.%2$s', 'bittnerkrull
 </div>
 <noscript><a href="http://www.cleverreach.de">www.CleverReach.de</a></noscript>
 </div>
-
-
+ 
+    
 </form>
 <!-- /wp:html --></div></div>
 <!-- /wp:cover --></div>
