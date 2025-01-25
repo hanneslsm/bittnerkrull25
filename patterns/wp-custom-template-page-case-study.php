@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: wp-custom-template-page-case-study
- * Slug: bittnerkrull25/wp-custom-template-page-case-study
+ * Slug: wp-custom-template-page-case-study
  * Inserter: no
  */
 ?>

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: archive-events
- * Slug: bittnerkrull25/archive-events
+ * Slug: archive-events
  * Inserter: no
  */
 ?>
@@ -17,7 +17,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)"><!-- wp:paragraph {"align":"right"} -->
-<p class="has-text-align-right"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
+<p class="has-text-align-right"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */
 echo sprintf( esc_html__( '%1$sRückblick anzeigen →%2$s', 'bittnerkrull25' ), '<a href="' . esc_url( 'https://stdlsm.com/bittnerkrull/category/rueckblick/' ) . '" data-type="category" data-id="29">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
@@ -73,7 +73,7 @@ echo sprintf( esc_html__( '%1$sRückblick anzeigen →%2$s', 'bittnerkrull25' ),
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p><?php /* Translators: 1. is the start of a 'em' HTML element, 2. is the end of a 'em' HTML element */ 
+<p><?php /* Translators: 1. is the start of a 'em' HTML element, 2. is the end of a 'em' HTML element */
 echo sprintf( esc_html__( '%1$sKeine Blogbeiträge gefunden.%2$s', 'bittnerkrull25' ), '<em>', '</em>' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
@@ -108,9 +108,9 @@ echo sprintf( esc_html__( '%1$sKeine Blogbeiträge gefunden.%2$s', 'bittnerkrull
 </div><div id="7511846" rel="checkbox" class="cr_ipe_item ui-sortable musthave" >
 <label class="itemname">Einwilligung*</label>
 <div >
- 
+
 <input id="Ich akzeptiere die Datenschutzerklärung7511846" class="cr_ipe_checkbox" name="1250437[]" value="Ich akzeptiere die Datenschutzerklärung" type="checkbox"  />Ich akzeptiere die Datenschutzerklärung&nbsp;
- 
+
 </div>
 <br  />
 </div><div id="7508936" rel="button" class="cr_ipe_item ui-sortable submit_container" >
@@ -119,8 +119,8 @@ echo sprintf( esc_html__( '%1$sKeine Blogbeiträge gefunden.%2$s', 'bittnerkrull
 </div>
 <noscript><a href="http://www.cleverreach.de">www.CleverReach.de</a></noscript>
 </div>
- 
-    
+
+
 </form>
 <!-- /wp:html --></div></div>
 <!-- /wp:cover --></div>

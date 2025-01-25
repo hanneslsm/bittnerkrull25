@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: archive-case_studies
- * Slug: bittnerkrull25/archive-case_studies
+ * Slug: archive-case_studies
  * Inserter: no
  */
 ?>
@@ -54,7 +54,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p><?php /* Translators: 1. is the start of a 'em' HTML element, 2. is the end of a 'em' HTML element */ 
+<p><?php /* Translators: 1. is the start of a 'em' HTML element, 2. is the end of a 'em' HTML element */
 echo sprintf( esc_html__( '%1$sKeine Blogbeiträge gefunden.%2$s', 'bittnerkrull25' ), '<em>', '</em>' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
@@ -89,9 +89,9 @@ echo sprintf( esc_html__( '%1$sKeine Blogbeiträge gefunden.%2$s', 'bittnerkrull
 </div><div id="7511846" rel="checkbox" class="cr_ipe_item ui-sortable musthave" >
 <label class="itemname">Einwilligung*</label>
 <div >
- 
+
 <input id="Ich akzeptiere die Datenschutzerklärung7511846" class="cr_ipe_checkbox" name="1250437[]" value="Ich akzeptiere die Datenschutzerklärung" type="checkbox"  />Ich akzeptiere die Datenschutzerklärung&nbsp;
- 
+
 </div>
 <br  />
 </div><div id="7508936" rel="button" class="cr_ipe_item ui-sortable submit_container" >
@@ -100,8 +100,8 @@ echo sprintf( esc_html__( '%1$sKeine Blogbeiträge gefunden.%2$s', 'bittnerkrull
 </div>
 <noscript><a href="http://www.cleverreach.de">www.CleverReach.de</a></noscript>
 </div>
- 
-    
+
+
 </form>
 <!-- /wp:html --></div></div>
 <!-- /wp:cover --></div>

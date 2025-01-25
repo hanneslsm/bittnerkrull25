@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: single-case_studies
- * Slug: bittnerkrull25/single-case_studies
+ * Slug: single-case_studies
  * Inserter: no
  */
 ?>
@@ -26,7 +26,7 @@
 <div class="wp-block-group has-base-2-background-color has-background" style="border-radius:8px;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)"><!-- wp:post-featured-image /-->
 
 <!-- wp:paragraph -->
-<p><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<p><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sEingesetzte Produkte von B+K%2$s', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -37,17 +37,17 @@ echo sprintf( esc_html__( '%1$sEingesetzte Produkte von B+K%2$s', 'bittnerkrull2
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"left"} -->
-<p class="has-text-align-left"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
+<p class="has-text-align-left"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$s%2$sInteressieren Sie sich für eines unserer Produkte?%3$s%4$s', 'bittnerkrull25' ), '<strong>', '<strong>', '</strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><?php /* Translators: 1. is a 'br' HTML element, 2. is the start of a 'a' HTML element, 3. is the end of a 'a' HTML element */ 
+<p><?php /* Translators: 1. is a 'br' HTML element, 2. is the start of a 'a' HTML element, 3. is the end of a 'a' HTML element */
 echo sprintf( esc_html__( 'Rufen Sie uns einfach an unter:%1$s %2$s+49 89 458 59 50%3$s', 'bittnerkrull25' ), '<br>', '<a href="' . esc_url( 'tel:+49894585950' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><?php /* Translators: 1. is a 'br' HTML element, 2. is the start of a 'a' HTML element, 3. is the end of a 'a' HTML element */ 
+<p><?php /* Translators: 1. is a 'br' HTML element, 2. is the start of a 'a' HTML element, 3. is the end of a 'a' HTML element */
 echo sprintf( esc_html__( 'Oder schreiben Sie uns: %1$s%2$sinfo@bittner-krull.de%3$s.', 'bittnerkrull25' ), '<br>', '<a href="' . esc_url( 'mailto:info@bittner-krull.de' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></aside>
