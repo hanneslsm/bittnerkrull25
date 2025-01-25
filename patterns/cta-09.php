@@ -2,7 +2,7 @@
 /**
  * Title: CTA 09
  * Slug: bittnerkrull25/cta-09
- * Categories: bittnerkrull25/custom
+ * Categories: bittnerkrull25/custom25/custom
  */
 ?>
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png","isUserOverlayColor":true,"customGradient":"linear-gradient(90deg,rgba(0,0,0,0) 0%,rgb(0,0,0) 100%)","contentPosition":"center center","metadata":{"categories":["Call-to-action"],"patternName":"bittnerkrull25/call-to-action-9","name":"Call to Action 9"},"align":"wide","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->

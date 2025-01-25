@@ -2,7 +2,7 @@
 /**
  * Title: CTA 11
  * Slug: bittnerkrull25/cta-11
- * Categories: bittnerkrull25/custom
+ * Categories: bittnerkrull25/custom25/custom
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["Call-to-action"],"patternName":"bittnerkrull25/call-to-action-11","name":"Call to Action 11"},"align":"full","className":"is-style-section-base","layout":{"type":"constrained"}} -->

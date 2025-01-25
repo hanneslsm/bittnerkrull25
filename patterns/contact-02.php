@@ -2,7 +2,7 @@
 /**
  * Title: Contact 02
  * Slug: bittnerkrull25/contact-02
- * Categories: bittnerkrull25/custom
+ * Categories: bittnerkrull25/custom25/custom
  */
 ?>
 <!-- wp:group {"metadata":{"name":"CTA Kontakt","categories":["Call","to","Action"],"patternName":"bittnerkrull25/cta-kontakt-a1"},"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
