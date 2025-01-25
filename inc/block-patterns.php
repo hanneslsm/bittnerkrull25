@@ -35,7 +35,7 @@ add_filter('should_load_remote_block_patterns', '__return_false');
 
  function bittnerkrull25_register_pattern_categories() {
 	 register_block_pattern_category( 'bittnerkrull25/custom', array(
-		 'label'       => __( 'Theme Name: Custom', 'bittnerkrull25' ),
-		 'description' => __( 'Custom patterns for Theme Name.', 'bittnerkrull25' )
+		 'label'       => __( 'BittnerKrull', 'bittnerkrull25' ),
+		 'description' => __( 'Custom patterns for Bittner Krull.', 'bittnerkrull25' )
 	 ) );
  }
