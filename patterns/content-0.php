@@ -22,27 +22,27 @@
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( 'Aut iure %1$sdoloremque%2$s et enim asperiores aut aliquid nihil?', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( 'Qui iste velit et rerum %1$scupiditate%2$s.', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( 'Et quod %1$spariatur%2$s aut explicabo aspernatur aut excepturi facilis nam enim dolore?', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( 'Est Quis velit non quia %1$sarchitecto%2$s ex dolor architecto.', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( 'Qui nisi quas aut labore %1$sdolorum%2$s.', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
@@ -50,7 +50,7 @@ echo sprintf( esc_html__( 'Qui nisi quas aut labore %1$sdolorum%2$s.', 'bittnerk
 
 <!-- wp:column {"width":"%"} -->
 <div class="wp-block-column"><!-- wp:image {"scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-bittnerkrull-image-screenshot"} -->
-<figure class="wp-block-image size-full is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D.png" alt="" class="" style="object-fit:cover"/></figure>
+<figure class="wp-block-image size-full is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

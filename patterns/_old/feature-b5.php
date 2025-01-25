@@ -22,19 +22,19 @@
 
 <!-- wp:gallery {"columns":4,"linkTo":"none","align":"wide"} -->
 <figure class="wp-block-gallery alignwide has-nested-images columns-4 is-cropped"><!-- wp:image {"scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-default","style":{"border":{"radius":"8px"}}} -->
-<figure class="wp-block-image size-large has-custom-border is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="border-radius:8px;object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
+<figure class="wp-block-image size-large has-custom-border is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="border-radius:8px;object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-default","style":{"border":{"radius":"8px"}}} -->
-<figure class="wp-block-image size-large has-custom-border is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="border-radius:8px;object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
+<figure class="wp-block-image size-large has-custom-border is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="border-radius:8px;object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-default","style":{"border":{"radius":"8px"}}} -->
-<figure class="wp-block-image size-large has-custom-border is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="border-radius:8px;object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
+<figure class="wp-block-image size-large has-custom-border is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="border-radius:8px;object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-default","style":{"border":{"radius":"8px"}}} -->
-<figure class="wp-block-image size-large has-custom-border is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="border-radius:8px;object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
+<figure class="wp-block-image size-large has-custom-border is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="border-radius:8px;object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
 <!-- /wp:image --></figure>
 <!-- /wp:gallery -->
 

@@ -19,7 +19,7 @@
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"grid","minimumColumnWidth":"16rem","columnCount":null}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"border":{"left":{"color":"var:preset|color|brand-3","width":"2px"}},"spacing":{"padding":{"left":"var:preset|spacing|20"}}}} -->
-<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
+<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$s%2$sLorem Ipsum%3$s%4$s', 'bittnerkrull25' ), '<strong>', '<strong>', '</strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -30,7 +30,7 @@ echo sprintf( esc_html__( '%1$s%2$sLorem Ipsum%3$s%4$s', 'bittnerkrull25' ), '<s
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"border":{"left":{"color":"var:preset|color|brand-3","width":"2px"}},"spacing":{"padding":{"left":"var:preset|spacing|20"}}}} -->
-<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
+<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$s%2$sDolor Sit%3$s%4$s', 'bittnerkrull25' ), '<strong>', '<strong>', '</strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -41,7 +41,7 @@ echo sprintf( esc_html__( '%1$s%2$sDolor Sit%3$s%4$s', 'bittnerkrull25' ), '<str
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"border":{"left":{"color":"var:preset|color|brand-3","width":"2px"}},"spacing":{"padding":{"left":"var:preset|spacing|20"}}}} -->
-<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
+<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$s%2$sConsectetur%3$s%4$s', 'bittnerkrull25' ), '<strong>', '<strong>', '</strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -52,7 +52,7 @@ echo sprintf( esc_html__( '%1$s%2$sConsectetur%3$s%4$s', 'bittnerkrull25' ), '<s
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"border":{"left":{"color":"var:preset|color|brand-3","width":"2px"}},"spacing":{"padding":{"left":"var:preset|spacing|20"}}}} -->
-<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
+<p style="border-left-color:var(--wp--preset--color--brand-3);border-left-width:2px;padding-left:var(--wp--preset--spacing--20)"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$s%2$sAdipiscing Elit%3$s%4$s', 'bittnerkrull25' ), '<strong>', '<strong>', '</strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -65,7 +65,7 @@ echo sprintf( esc_html__( '%1$s%2$sAdipiscing Elit%3$s%4$s', 'bittnerkrull25' ),
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-bittnerkrull-image-screenshot"} -->
-<figure class="wp-block-image size-full is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D.png" alt="" class=""/></figure>
+<figure class="wp-block-image size-full is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class=""/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

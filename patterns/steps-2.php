@@ -19,7 +19,7 @@
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<p class="has-large-font-size"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$s01. Quo sint velit ea earum quae eos quis quia sit deleniti culpa.%2$s', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
@@ -57,7 +57,7 @@ echo sprintf( esc_html__( '%1$s01. Quo sint velit ea earum quae eos quis quia si
 
 <!-- wp:column {"width":"%"} -->
 <div class="wp-block-column"><!-- wp:image {"scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-bittnerkrull-image-screenshot"} -->
-<figure class="wp-block-image size-full is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D.png" alt="" class="" style="object-fit:cover"/></figure>
+<figure class="wp-block-image size-full is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -65,18 +65,18 @@ echo sprintf( esc_html__( '%1$s01. Quo sint velit ea earum quae eos quis quia si
 <!-- wp:columns {"align":"wide","className":"on-mobile-reverse-order","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|30"}}}} -->
 <div class="wp-block-columns alignwide on-mobile-reverse-order"><!-- wp:column {"width":"%"} -->
 <div class="wp-block-column"><!-- wp:image {"scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-bittnerkrull-image-screenshot"} -->
-<figure class="wp-block-image size-full is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D.png" alt="" class="" style="object-fit:cover"/></figure>
+<figure class="wp-block-image size-full is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:paragraph {"fontSize":"large"} -->
-<p class="has-large-font-size"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
+<p class="has-large-font-size"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$s02. %2$sAut alias sit nesciunt fugit ad minima asperiores%3$s.%4$s', 'bittnerkrull25' ), '<strong>', '<strong>', '</strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><?php /* Translators: 1. is the start of a 'em' HTML element, 2. is the end of a 'em' HTML element */ 
+<p><?php /* Translators: 1. is the start of a 'em' HTML element, 2. is the end of a 'em' HTML element */
 echo sprintf( esc_html__( 'Ut iste asperiores et maiores ipsum %1$sNon inventore et laborum eaque%2$s qui cumque totam in delectus placeat et quae dignissimos. Qui sapiente aspernaturAt beatae 33 molestiae animi qui numquam aliquam vel natus rerum in amet exercitationem non commodi quaerat? Id galisum galisum ut pariatur consequatur ', 'bittnerkrull25' ), '<em>', '</em>' ); ?></p>
 <!-- /wp:paragraph -->
 
