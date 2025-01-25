@@ -532,7 +532,8 @@
 					"cite": {
 						"typography": {
 							"fontSize": "var:preset|font-size|medium",
-							"fontWeight": "400"
+							"fontWeight": "400",
+							"fontStyle": "normal"
 						}
 					}
 				}
@@ -569,6 +570,15 @@
 				},
 				"color": {
 					"background": "var:preset|color|base-2"
+				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var:preset|font-size|medium",
+							"fontWeight": "400",
+							"fontStyle": "normal"
+						}
+					}
 				}
 			}
 		},

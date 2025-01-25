@@ -15,12 +15,12 @@
 <div class="wp-block-columns are-vertically-aligned-bottom"><!-- wp:column {"verticalAlignment":"bottom","width":"66.66%"} -->
 <div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:66.66%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"width":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-default","style":{"border":{"radius":"999px"}}} -->
-<figure class="wp-block-image aligncenter size-full is-resized has-custom-border is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D.png" alt="" class="" style="border-radius:999px;aspect-ratio:1;object-fit:cover;width:64px"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized has-custom-border is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="border-radius:999px;aspect-ratio:1;object-fit:cover;width:64px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"left"} -->
-<p class="has-text-align-left"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<p class="has-text-align-left"><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sAut consequatur explicabo.%2$s', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></p>
 <!-- /wp:paragraph -->
 

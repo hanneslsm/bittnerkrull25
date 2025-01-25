@@ -30,7 +30,7 @@
 <!-- wp:column {"width":"66.66%"} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:group {"style":{"border":{"radius":"8px","width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"base-2","borderColor":"base-4","layout":{"type":"default"}} -->
 <div class="wp-block-group has-border-color has-base-4-border-color has-base-2-background-color has-background" style="border-width:1px;border-radius:8px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:image {"width":"240px","sizeSlug":"full","linkDestination":"none","align":"right","className":"is-style-bittnerkrull-image-screenshot"} -->
-<figure class="wp-block-image alignright size-full is-resized is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D.png" alt="" class="" style="width:240px"/></figure>
+<figure class="wp-block-image alignright size-full is-resized is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="width:240px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -56,7 +56,7 @@
 <!-- wp:column {"width":"66.66%"} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:group {"style":{"border":{"radius":"8px","width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"base-2","borderColor":"base-4","layout":{"type":"default"}} -->
 <div class="wp-block-group has-border-color has-base-4-border-color has-base-2-background-color has-background" style="border-width:1px;border-radius:8px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:image {"width":"240px","sizeSlug":"full","linkDestination":"none","align":"right","className":"is-style-bittnerkrull-image-screenshot"} -->
-<figure class="wp-block-image alignright size-full is-resized is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D.png" alt="" class="" style="width:240px"/></figure>
+<figure class="wp-block-image alignright size-full is-resized is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="width:240px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -82,7 +82,7 @@
 <!-- wp:column {"width":"66.66%"} -->
 <div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:group {"style":{"border":{"radius":"8px","width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"base-2","borderColor":"base-4","layout":{"type":"default"}} -->
 <div class="wp-block-group has-border-color has-base-4-border-color has-base-2-background-color has-background" style="border-width:1px;border-radius:8px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:image {"width":"240px","sizeSlug":"full","linkDestination":"none","align":"right","className":"is-style-bittnerkrull-image-screenshot"} -->
-<figure class="wp-block-image alignright size-full is-resized is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D.png" alt="" class="" style="width:240px"/></figure>
+<figure class="wp-block-image alignright size-full is-resized is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="width:240px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->

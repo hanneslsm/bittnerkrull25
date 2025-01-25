@@ -15,29 +15,29 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","className":"is-style-bittnerkrull-image-screenshot","style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|40"}}}} -->
-<figure class="wp-block-image size-full is-style-bittnerkrull-image-screenshot" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40)"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D.png" alt="" class=""/></figure>
+<figure class="wp-block-image size-full is-style-bittnerkrull-image-screenshot" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--40)"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:list {"className":"is-style-list-checkmark"} -->
 <ul class="wp-block-list is-style-list-checkmark"><!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
+<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$s%2$sLorem Ipsum%3$s%4$s dolor sit amet, consectetur adipiscing elit.', 'bittnerkrull25' ), '<strong>', '<strong>', '</strong>', '</strong>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sSed do eiusmod%2$s tempor incididunt ut labore et dolore magna aliqua.', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sUt enim%2$s ad minim veniam.', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
+<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$s%2$sDolor Sit%3$s%4$s quis nostrud exercitation ullamco laboris.', 'bittnerkrull25' ), '<strong>', '<strong>', '</strong>', '</strong>' ); ?></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
@@ -46,22 +46,22 @@ echo sprintf( esc_html__( '%1$s%2$sDolor Sit%3$s%4$s quis nostrud exercitation u
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:list {"className":"is-style-list-checkmark"} -->
 <ul class="wp-block-list is-style-list-checkmark"><!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sNisi ut%2$s aliquip ex ea commodo consequat.', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sDuis aute%2$s irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */ 
+<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the start of a 'strong' HTML element, 3. is the end of a 'strong' HTML element, 4. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$s%2$sConsectetur%3$s%4$s excepteur sint occaecat cupidatat non proident.', 'bittnerkrull25' ), '<strong>', '<strong>', '</strong>', '</strong>' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */ 
+<li><?php /* Translators: 1. is the start of a 'strong' HTML element, 2. is the end of a 'strong' HTML element */
 echo sprintf( esc_html__( '%1$sSunt in culpa%2$s qui officia deserunt mollit anim id est.', 'bittnerkrull25' ), '<strong>', '</strong>' ); ?></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>

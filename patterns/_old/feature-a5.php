@@ -19,7 +19,7 @@
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"grid","minimumColumnWidth":"16rem"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:image {"width":"72px","aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"999px"}}} -->
-<figure class="wp-block-image size-large is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="border-radius:999px;aspect-ratio:1;object-fit:cover;width:72px"/></figure>
+<figure class="wp-block-image size-large is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="border-radius:999px;aspect-ratio:1;object-fit:cover;width:72px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"8px","style":{"layout":[],"spacing":{"margin":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
@@ -38,7 +38,7 @@ echo sprintf( esc_html__( '%1$sEt obcaecati nesciunt eum debitis%2$s', 'bittnerk
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:image {"width":"72px","aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"999px"}}} -->
-<figure class="wp-block-image size-large is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="border-radius:999px;aspect-ratio:1;object-fit:cover;width:72px"/></figure>
+<figure class="wp-block-image size-large is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="border-radius:999px;aspect-ratio:1;object-fit:cover;width:72px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"8px","style":{"layout":[],"spacing":{"margin":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
@@ -57,7 +57,7 @@ echo sprintf( esc_html__( '%1$sEt tempora voluptatem%2$s', 'bittnerkrull25' ), '
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:image {"width":"72px","aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"999px"}}} -->
-<figure class="wp-block-image size-large is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="border-radius:999px;aspect-ratio:1;object-fit:cover;width:72px"/></figure>
+<figure class="wp-block-image size-large is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="border-radius:999px;aspect-ratio:1;object-fit:cover;width:72px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"8px","style":{"layout":[],"spacing":{"margin":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
@@ -76,7 +76,7 @@ echo sprintf( esc_html__( '%1$s%2$sCurabitur Vulputate%3$s%4$s', 'bittnerkrull25
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:image {"width":"72px","aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"999px"}}} -->
-<figure class="wp-block-image size-large is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="border-radius:999px;aspect-ratio:1;object-fit:cover;width:72px"/></figure>
+<figure class="wp-block-image size-large is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="border-radius:999px;aspect-ratio:1;object-fit:cover;width:72px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|10","style":{"layout":[],"spacing":{"margin":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
@@ -98,7 +98,7 @@ echo sprintf( esc_html__( '%1$s%2$sSuspendisse Potenti Curabitur%3$s%4$s', 'bitt
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"metadata":{"name":"on-stuck-has-padding"},"className":"on-stuck-has-padding","style":{"position":{"type":"sticky","top":"0px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group on-stuck-has-padding"><!-- wp:image {"lightbox":{"enabled":true},"scale":"cover","sizeSlug":"large","linkDestination":"none","className":"is-style-image\u002d\u002dbittnerkrull-screenshot"} -->
-<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder-3E0847B1-8508-46B6-A63F-D9152E444F8D-1024x682.png" alt="" class="" style="object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
+<figure class="wp-block-image size-large is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" class="" style="object-fit:cover"/><figcaption class="wp-element-caption">This is a caption</figcaption></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
