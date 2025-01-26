@@ -5,7 +5,7 @@
  * Categories: bittnerkrull25/custom
  */
 ?>
-<!-- wp:group {"metadata":{"categories":["Content"],"patternName":"bittnerkrull25/content-22","name":"Content 22"},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:spacer {"height":"var:preset|spacing|40","style":{"layout":[]}} -->
 <div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->

@@ -5,7 +5,7 @@
  * Categories: bittnerkrull25/custom
  */
 ?>
-<!-- wp:group {"metadata":{"categories":["Long","Form","Content"],"patternName":"bittnerkrull25/long-form-3","name":"Long Form Content 3"},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:spacer {"height":"clamp(48px, 2.5vw + 2rem, 64px)","style":{"layout":[]}} -->
 <div style="height:clamp(48px, 2.5vw + 2rem, 64px)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->

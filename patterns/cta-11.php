@@ -5,7 +5,7 @@
  * Categories: bittnerkrull25/custom25/custom
  */
 ?>
-<!-- wp:group {"metadata":{"categories":["Call-to-action"],"patternName":"bittnerkrull25/call-to-action-11","name":"Call to Action 11"},"align":"full","className":"is-style-section-base","layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"full","className":"is-style-section-base","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull is-style-section-base"><!-- wp:spacer {"height":"var:preset|spacing|30","style":{"layout":[]}} -->
 <div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->

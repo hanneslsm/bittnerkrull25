@@ -5,7 +5,7 @@
  * Categories: bittnerkrull25/custom
  */
 ?>
-<!-- wp:group {"metadata":{"categories":["Content"],"patternName":"bittnerkrull25/content-17","name":"Content 17"},"className":"is-style-default","layout":{"type":"constrained"}} -->
+<!-- wp:group {"className":"is-style-default","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-default"><!-- wp:spacer {"height":"var:preset|spacing|40","style":{"layout":[]}} -->
 <div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->

@@ -5,7 +5,7 @@
  * Categories: bittnerkrull25/custom
  */
 ?>
-<!-- wp:group {"metadata":{"categories":["Features"],"patternName":"bittnerkrull25/features-7","name":"Features 7"},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:spacer {"height":"var:preset|spacing|20","style":{"layout":[]}} -->
 <div style="height:var(--wp--preset--spacing--20)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->

@@ -5,7 +5,7 @@
  * Categories: bittnerkrull25/custom25/custom
  */
 ?>
-<!-- wp:group {"metadata":{"name":"CTA Kontakt","categories":["Call","to","Action"],"patternName":"bittnerkrull25/cta-kontakt-a1"},"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:spacer {"height":"var:preset|spacing|40","style":{"layout":[]}} -->
 <div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
