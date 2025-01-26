@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: 404
- * Slug: 404
+ * Slug: bittnerkrull25/404
  * Inserter: no
  */
 ?>
 <!-- wp:template-part {"slug":"header","area":"header","className":""} /-->
 
-<!-- wp:group {"metadata":{"categories":["call-to-action"],"patternName":"bittnerkrull25/bittnerkrull25-call-to-action-2"},"style":{"dimensions":{"minHeight":"60dvh"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"center"}} -->
+<!-- wp:group {"style":{"dimensions":{"minHeight":"60dvh"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"center"}} -->
 <div class="wp-block-group" style="min-height:60dvh"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"className":"is-style-section-base-2","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"border":{"radius":"8px"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-section-base-2" style="border-radius:8px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-6"}}}},"textColor":"base-6","fontSize":"xx-large"} -->

@@ -2,18 +2,22 @@
 /**
  * Title: Content 11
  * Slug: bittnerkrull25/content-11
- * Categories: Content
+ * Categories: bittnerkrull25/custom
  */
 ?>
-<!-- wp:group {"metadata":{"categories":["feature"],"patternName":"bittnerkrull25/bittnerkrull25-feature-a1"},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:spacer {"height":"var:preset|spacing|40","style":{"layout":[]}} -->
 <div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|30"}}}} -->
-<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:heading {"align":"wide"} -->
+<!-- wp:heading {"align":"wide"} -->
 <h2 class="wp-block-heading alignwide"><?php esc_html_e('Et incidunt laudantium in veritatis autem.', 'bittnerkrull25');?></h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center","width":"66.7%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.7%"><!-- wp:heading {"level":3,"align":"wide"} -->
+<h3 class="wp-block-heading alignwide"><?php esc_html_e('Et incidunt laudantium in veritatis autem.', 'bittnerkrull25');?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -21,12 +25,28 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"width":"%"} -->
-<div class="wp-block-column"><!-- wp:embed {"url":"https://www.youtube.com/watch?v=FcTLMTyD2DU","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-https://www.youtube.com/watch?v=FcTLMTyD2DU
-</div></figure>
-<!-- /wp:embed --></div>
+<!-- wp:column {"verticalAlignment":"center","width":"%"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-bittnerkrull-image-screenshot"} -->
+<figure class="wp-block-image size-full is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" style="object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center","width":"%"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"scale":"cover","sizeSlug":"full","linkDestination":"none","className":"is-style-bittnerkrull-image-screenshot"} -->
+<figure class="wp-block-image size-full is-style-bittnerkrull-image-screenshot"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/placeholder.png" alt="" style="object-fit:cover"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center","width":"66.7%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.7%"><!-- wp:heading {"level":3,"align":"wide"} -->
+<h3 class="wp-block-heading alignwide"><?php esc_html_e('A internos quisquam et praesentium soluta.', 'bittnerkrull25');?></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><?php esc_html_e('Qui similique assumenda&nbsp;In nesciunt et esse neque non dolorem culpa et dolor galisum. Id tenetur quamEt facere et placeat optio est neque aliquam ex nihil quos. Non unde porro sit sapiente labore&nbsp;Ut molestias non magnam ipsum nam velit deleniti aut perspiciatis sequi? Sit nihil maiores aut galisum nesciuntRem magnam et galisum praesentium eum dolorem obcaecati quo ratione corrupti.', 'bittnerkrull25');?></p>
+<!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
