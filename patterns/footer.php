@@ -25,12 +25,12 @@ echo sprintf( esc_html__( 'nach oben %1$s↑%2$s', 'bittnerkrull25' ), '<strong>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"width":"162px","height":"auto","sizeSlug":"large","linkDestination":"none","className":"is-style-default","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}},"layout":{"selfStretch":"fit","flexSize":null},"border":{"radius":"0px"}}} -->
-<figure class="wp-block-image size-large is-resized has-custom-border is-style-default" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/SAP_Certi_Integration_RISE_w_SAP_S4HANACloud_R_neg.png" alt="" style="border-radius:0px;width:162px;height:auto"/></figure>
+<div class="wp-block-group"><!-- wp:image {"lightbox":{"enabled":false},"width":"162px","height":"auto","sizeSlug":"full","linkDestination":"none","className":"is-style-default","style":{"spacing":{"margin":{"top":"0","bottom":"0","left":"0","right":"0"}},"layout":{"selfStretch":"fit","flexSize":null},"border":{"radius":"0px"}}} -->
+<figure class="wp-block-image size-full is-resized has-custom-border is-style-default" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/SAP_Certi_Integration_RISE_w_SAP_S4HANACloud_R_neg.png" alt="" class="" style="border-radius:0px;width:162px;height:auto"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"lightbox":{"enabled":false},"width":"113px","height":"auto","sizeSlug":"large","linkDestination":"none","style":{"spacing":{"margin":{"top":"var:preset|spacing|10","bottom":"0"}}}} -->
-<figure class="wp-block-image size-large is-resized" style="margin-top:var(--wp--preset--spacing--10);margin-bottom:0"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/TUV.png" alt="" style="width:113px;height:auto"/></figure>
+<!-- wp:image {"lightbox":{"enabled":false},"width":"113px","height":"auto","sizeSlug":"full","linkDestination":"none","style":{"spacing":{"margin":{"top":"var:preset|spacing|10","bottom":"0"}}}} -->
+<figure class="wp-block-image size-full is-resized" style="margin-top:var(--wp--preset--spacing--10);margin-bottom:0"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/TUV.png" alt="" style="width:113px;height:auto"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -38,7 +38,7 @@ echo sprintf( esc_html__( 'nach oben %1$s↑%2$s', 'bittnerkrull25' ), '<strong>
 <!-- wp:column {"verticalAlignment":"center","width":"33.33%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:paragraph {"align":"right","className":"on-medium-left"} -->
 <p class="has-text-align-right on-medium-left"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element, 3. is a 'br' HTML element, 4. is the start of a 'a' HTML element, 5. is the end of a 'a' HTML element, 6. is a 'br' HTML element, 7. is the start of a 'a' HTML element, 8. is the end of a 'a' HTML element, 9. is a 'br' HTML element, 10. is the start of a 'a' HTML element, 11. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sDatenschutz%2$s%3$s%4$sAGB%5$s%6$s%7$sImpressum%8$s%9$s%10$sCookie-Richtlinie (EU)%11$s', 'bittnerkrull25' ), '<a href="' . esc_url( 'https://www.bittner-krull.de/datenschutz/' ) . '" data-type="page" data-id="3396">', '</a>', '<br>', '<a href="' . esc_url( 'https://www.bittner-krull.de/agb/' ) . '" data-type="page" data-id="3402">', '</a>', '<br>', '<a href="' . esc_url( 'https://www.bittner-krull.de/impressum/' ) . '" data-type="page" data-id="3350">', '</a>', '<br>', '<a href="' . esc_url( 'https://www.bittner-krull.de/cookie-richtlinie-eu/' ) . '" data-type="page" data-id="3965">', '</a>' ); ?></p>
+echo sprintf( esc_html__( '%1$sDatenschutz%2$s%3$s%4$sAGB%5$s%6$s%7$sImpressum%8$s%9$s%10$sCookie-Richtlinie (EU)%11$s', 'bittnerkrull25' ), '<a href="' . esc_url( 'https://www.bittner-krull.de/datenschutz/' ) . '" data-type="page" data-id="3396">', '</a>', '<br>', '<a href="' . esc_url( 'https://www.bittner-krull.de/agb/' ) . '" data-type="page" data-id="3402">', '</a>', '<br>', '<a href="' . esc_url( 'https://www.bittner-krull.de/impressum/' ) . '" data-type="page" data-id="3350">', '</a>', '<br>', '<a href="' . esc_url( 'https://www.bittner-krull.de/cookie-richtlinie-eu/' ) . '" data-type="page" data-id="3972">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -65,8 +65,7 @@ echo sprintf( esc_html__( '%1$sDatenschutz%2$s%3$s%4$sAGB%5$s%6$s%7$sImpressum%8
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"className":"on-medium-center","style":{"spacing":{"padding":{"right":"0","left":"0"},"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 <div class="wp-block-group on-medium-center" style="padding-right:0;padding-left:0"><!-- wp:paragraph {"className":"on-mobile-left on-large-only-flex-column"} -->
-<p class="on-mobile-left on-large-only-flex-column"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sBittner+Krull Schweiz%2$s', 'bittnerkrull25' ), '<a href="' . esc_url( 'http://bittner-krull.ch' ) . '">', '</a>' ); ?></p>
+<p class="on-mobile-left on-large-only-flex-column"><?php esc_html_e('Bittner+Krull Schweiz', 'bittnerkrull25');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -75,7 +74,7 @@ echo sprintf( esc_html__( '%1$sBittner+Krull Schweiz%2$s', 'bittnerkrull25' ), '
 
 <!-- wp:paragraph -->
 <p><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sinvelop%2$s', 'bittnerkrull25' ), '<a href="' . esc_url( 'https://invelop.io/' ) . '" target="_blank" rel="noreferrer noopener">', '</a>' ); ?></p>
+echo sprintf( esc_html__( '%1$sinvelop%2$s', 'bittnerkrull25' ), '<a href="' . esc_url( 'https://invelop.io/' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -84,7 +83,7 @@ echo sprintf( esc_html__( '%1$sinvelop%2$s', 'bittnerkrull25' ), '<a href="' . e
 
 <!-- wp:paragraph -->
 <p><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sengate4%2$s', 'bittnerkrull25' ), '<a href="' . esc_url( 'https://engate4.de/' ) . '" target="_blank" rel="noreferrer noopener">', '</a>' ); ?></p>
+echo sprintf( esc_html__( '%1$sengate4%2$s', 'bittnerkrull25' ), '<a href="' . esc_url( 'https://engate4.de/' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
