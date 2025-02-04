@@ -3,7 +3,7 @@
  * Fix srcset and sizes attributes on cover block images.
  *
  * @package bittnerkrull25
- * @since 1.8.1
+ * @since 1.8.2
  * @link https://github.com/WordPress/gutenberg/issues/61220
  */
 
