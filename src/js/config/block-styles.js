@@ -46,6 +46,12 @@ const blockStyles = [
 			{ name: "paragraph-indicator", label: "Indicator" }
 		],
 	},
+	{
+		block: "core/navigation",
+		styles: [
+			{ name: "bittnerkrull-navigation", label: "BK Navigation" }
+		],
+	},
 ];
 
 blockStyles.forEach(({ block, styles }) => {
