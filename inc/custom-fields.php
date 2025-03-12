@@ -18,6 +18,6 @@ function bittnerkrull_register_case_study_pdf_meta() {
 		},
 	);
 
-	register_meta( 'post', 'case_study_pdf', $args );
+	register_meta( 'post', 'case_study_pdf_link', $args );
 }
 add_action( 'init', 'bittnerkrull_register_case_study_pdf_meta' );
