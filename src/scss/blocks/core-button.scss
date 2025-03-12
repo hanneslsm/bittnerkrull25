@@ -120,3 +120,21 @@
 		}
 	}
 }
+
+
+/**
+ * Link
+ */
+.wp-block-button.is-style-button-ghost {
+	> .wp-block-button__link {
+		color: var(--wp--preset--color--brand-3);
+		background-color: var(--wp--preset--color--base);
+		text-decoration: underline;
+		box-shadow: none;
+		padding: initial;
+		border-radius: 2px;
+		&:hover {
+			color: var(--wp--preset--color--brand);
+		}
+	}
+}

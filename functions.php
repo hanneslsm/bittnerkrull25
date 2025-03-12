@@ -33,3 +33,5 @@ require get_template_directory() . '/inc/srcset-fix.php';
  * Blocks
  */
 require get_template_directory() . '/inc/blocks/core-post-terms.php';
+
+require get_template_directory() . '/inc/custom-fields.php';

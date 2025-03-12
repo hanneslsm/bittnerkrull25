@@ -1,6 +1,11 @@
 /**
  * Helper classes
+ * @version 0.2.0
  */
+
+/**
+ * Overflow
+ * ============================================================== */
 
 .overflow-hidden {
 	overflow: hidden;
@@ -9,7 +14,10 @@
 	overflow: initial;
 	overflow: clip;
 }
-/* Flex */
+/**
+ * Flex
+ * ============================================================== */
+
 .flex-row {
 	flex-direction: row;
 }
@@ -24,7 +32,10 @@
 	flex-shrink: 1;
 }
 
-/* Positions */
+/**
+ * Positions
+ * ============================================================== */
+
 .position-absolute {
 	position: absolute;
 }
@@ -33,9 +44,12 @@
 	position: relative;
 }
 
-/* z-index */
+/**
+ * Z-index
+ * ============================================================== */
+
 .z--1 {
-	z-index: 1000;
+	z-index: -1;
 }
 .z-1000 {
 	z-index: 1000;
@@ -68,7 +82,9 @@
 	z-index: 9999;
 }
 
-/* Top */
+/**
+ * Top
+ * ============================================================== */
 
 .top-10 {
 	top: var(--wp--preset--spacing--10) !important;
@@ -88,10 +104,90 @@
 .top-60 {
 	top: var(--wp--preset--spacing--60) !important;
 }
-.top-60 {
+.top-70 {
 	top: var(--wp--preset--spacing--70) !important;
 }
 
+/**
+ * Backdrop Filter
+ * ============================================================== */
+
 .blur-5 {
 	backdrop-filter: blur(5px);
+}
+
+/**
+ * Text
+ * ============================================================== */
+
+.no-underlines {
+	text-decoration: none;
+	a {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.text-pretty {
+	text-wrap: pretty;
+}
+
+.text-balance {
+	text-wrap: balance;
+}
+
+/**
+ * Heights
+ * ============================================================== */
+
+.has-no-max-height {
+	max-height: none !important;
+}
+
+/**
+ * Widths
+ * ============================================================== */
+
+.width-max-content {
+	width: max-content;
+}
+.width-fit-content {
+	width: fit-content;
+}
+.width-min-content {
+	width: min-content;
+}
+
+/**
+ * Animation
+ * ============================================================== */
+
+.scroll-down-arrow {
+	display: inline-block;
+	animation: smoothScrollDown 4s ease-in-out infinite;
+}
+
+/**
+ * Rotate
+ * ============================================================== */
+
+.rotate-plus-2 {
+	transform: rotate(2deg);
+}
+
+.rotate-plus-3 {
+	transform: rotate(3deg);
+}
+
+.rotate-minus-2 {
+	transform: rotate(-2deg);
+}
+.rotate-minus-3 {
+	transform: rotate(-3deg);
 }
