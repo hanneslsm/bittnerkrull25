@@ -30,10 +30,10 @@
  * Bittner Krull Navigation
  */
 
-.wp-block-navigation:not(.has-background):has(.is-style-bittnerkrull-navigation) .wp-block-navigation__responsive-container.is-menu-open{
-
+.wp-block-navigation:not(.has-background):has(.is-style-bittnerkrull-navigation)
+	.wp-block-navigation__responsive-container.is-menu-open {
 	/* Close Button */
-	.wp-block-navigation__responsive-container-close{
+	.wp-block-navigation__responsive-container-close {
 		color: white;
 	}
 
@@ -44,25 +44,22 @@
 		box-shadow: none;
 	}
 
-
 	background-color: var(--wp--preset--color--brand-2);
 
 	/* Links */
-	a{
+	a {
 		color: var(--wp--preset--color--base-3);
 		display: block;
 		width: 100%;
 	}
-	a:hover{
+	a:hover {
 		color: var(--wp--preset--color--base-2) !important;
 	}
 }
 
-
-
-
 @media (min-width: $small) {
-	.wp-block-navigation:has(.is-style-bittnerkrull-navigation) .wp-block-site-logo{
+	.wp-block-navigation:has(.is-style-bittnerkrull-navigation)
+		.wp-block-site-logo {
 		display: none;
 		visibility: hidden;
 	}
