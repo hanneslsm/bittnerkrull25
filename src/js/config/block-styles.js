@@ -7,7 +7,8 @@ const blockStyles = [
 		block: "core/button",
 		styles: [
 			{ name: "bittnerkrull-button-brand", label: "BK Brand" },
-			{ name: "bittnerkrull-button-base", label: "BK Base" }
+			{ name: "bittnerkrull-button-base", label: "BK Base" },
+			{ name: "button-ghost", label: "Ghost" }
 		],
 	},
 	{
