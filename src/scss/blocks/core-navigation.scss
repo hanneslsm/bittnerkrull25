@@ -58,8 +58,7 @@
 }
 
 @media (min-width: $small) {
-	.wp-block-navigation:has(.is-style-bittnerkrull-navigation)
-		.wp-block-site-logo {
+	.wp-block-navigation.is-style-bittnerkrull-navigation .wp-block-site-logo {
 		display: none;
 		visibility: hidden;
 	}
